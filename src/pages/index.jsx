@@ -10,6 +10,7 @@ import WhatsSection from '../components/whatsSection'
 import AwardsSection from '../components/methodSection'
 import BonusSection from '../components/bonusSection'
 import CertificateSection from '../components/certificateSection'
+import PriceSection from '../components/priceSection'
 
 export default function Home() {
   const i18n = useI18n()
@@ -118,6 +119,7 @@ export default function Home() {
           />
           <BonusSection />
           <CertificateSection />
+          <PriceSection />
         </div>
       </Container>
     </>

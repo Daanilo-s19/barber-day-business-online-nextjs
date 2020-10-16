@@ -31,6 +31,7 @@ export const Container = styled.section`
     justify-items: end;
   }
   .content-center {
+    justify-self: center;
     img {
       animation: go-back 3s infinite alternate;
     }

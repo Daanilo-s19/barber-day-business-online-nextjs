@@ -1,31 +1,31 @@
-import styled, { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const theme = {
   colors: {
-    primary: "#ee5a59",
-    secundary: "#C7DEFF",
-    third: "linear-gradient(40.72deg, #552EE5 14.56%, #EE5A59 85.55%);",
+    primary: '#ee5a59',
+    secundary: '#C7DEFF',
+    third: 'linear-gradient(40.72deg, #552EE5 14.56%, #EE5A59 85.55%);',
   },
   colorsButton: {
-    primary: "#552ee5",
-    secundary: "#552ee5",
+    primary: '#552ee5',
+    secundary: '#552ee5',
     // third: "linear-gradient(40.72deg, #552EE5 14.56%, #EE5A59 85.55%);",
   },
   background: {
-    primary: "#0D151D",
-    secundary: "#161041",
+    primary: '#0D151D',
+    secundary: '#161041',
     // third: "linear-gradient(40.72deg, #552EE5 14.56%, #EE5A59 85.55%);",
   },
   breakpoint: {
-    mobileS: "(max-width: 320px)",
-    mobileM: "(max-width: 375px)",
-    mobileL: "(max-width: 425px)",
-    tablet: "(max-width: 768px)",
-    laptop: "(max-width: 1024px)",
-    laptopL: "(max-width: 1440px)",
-    desktop: "(max-width: 2560px)",
+    mobileS: '(max-width: 320px)',
+    mobileM: '(max-width: 375px)',
+    mobileL: '(max-width: 425px)',
+    tablet: '(max-width: 768px)',
+    laptop: '(max-width: 1024px)',
+    laptopL: '(max-width: 1440px)',
+    desktop: '(max-width: 2560px)',
   },
-};
+}
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -68,7 +68,8 @@ body {
   height: 100%;
   margin: 0;
   background: ${({ theme }) => theme.background.primary};
-  font-family: 'Hind', sans-serif;
+  font-family: 'Archivo', sans-serif;
+  /* font-family: 'Hind', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
@@ -81,13 +82,13 @@ code {
     monospace;
 }
 
-`;
+`
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
   /* background: red; */
-  background: url("assets/background/Seu-Elias.svg");
+  background: url('assets/background/Seu-Elias.svg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -179,4 +180,4 @@ export const Container = styled.div`
     }
   }
   /* background: blue; */
-`;
+`
