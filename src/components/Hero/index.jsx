@@ -32,7 +32,7 @@ export default function Hero(props) {
                 </iframe>
               </div>
               <Button
-                width="auto"
+                width="332px"
                 image="assets/arrow_right.svg"
                 bgColor="#2A9E98"
                 childrenColor="#F0F4FA"
@@ -42,6 +42,7 @@ export default function Hero(props) {
               >
                 {textButton}
               </Button>
+              <div className="arrow-down"></div>
             </div>
           </div>
         </div>

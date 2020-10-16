@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   width: 100%;
-  height: 768px;
-  margin-top: 60px;
+  margin-top: 40px;
 
   h1 {
     width: 100%;
@@ -66,24 +65,13 @@ export const Header = styled.header`
     background: url("assets/background/Direita- Hero.svg") 100% 100% no-repeat;
   }
 
-  #polygon1 {
-    width: 100;
-    height: 720px;
-    -z-index: -99;
-    margin-top: -150px;
-    margin-left: 135px;
+  .arrow-down {
+    width: 2px;
+    height: 44px;
+    margin-top: 24px;
 
-    background: linear-gradient(
-      180deg,
-      #156671 0%,
-      rgba(8, 55, 75, 0) 57.78%,
-      rgba(3, 22, 31, 0) 57.78%
-    );
-    transform: matrix(0.87, -0.5, -0.5, -0.87, 0, 0);
-    /* -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    transform: rotate(90deg); */
+    background: linear-gradient(180deg, rgba(42, 158, 152, 0) 0%, #2a9e98 100%);
+    border-radius: 100px;
   }
 
   /* .play {

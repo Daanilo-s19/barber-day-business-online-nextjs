@@ -125,10 +125,9 @@ export const Container = styled.div`
   }
   h4 {
     width: 100%;
-    max-width: 540px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 125.1%;
   }
 
   @keyframes spin {

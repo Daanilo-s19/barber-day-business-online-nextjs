@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ButtonDefault = styled.button`
   width: ${(props) => (props.width ? props.width : "192px")};
   max-width: ${(props) => (props.width ? props.width : "192px")};
+  height: 51px;
   border-radius: 100px;
   border: ${(props) =>
     props.background
@@ -12,7 +13,7 @@ export const ButtonDefault = styled.button`
   box-shadow: ${(props) =>
     props.shadow ? "0px 10px 25px rgba(42, 158, 152, 0.32)" : "none"};
   transition: 500ms;
-  padding: 15px 18px 17px 32px;
+  /* padding: 15px 15px 17px 32px; */
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
