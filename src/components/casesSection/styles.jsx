@@ -1,93 +1,102 @@
-import styled from "styled-components";
+import styled from 'styled-components'
+export const Container = styled.section`
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* overflow: hidden; */
 
-export const AllCases = styled.div`
-  width: 100%;
-  max-width: 736px;
-  height: 123px;
-  margin: 0 auto 132px;
-  background: linear-gradient(
-    270deg,
-    rgba(199, 222, 255, 0.05) 0%,
-    rgba(199, 222, 255, 0) 56.25%
-  );
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
+  .header {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 8px;
+    }
+    h4 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 125.1%;
+    }
+  }
+`
+export const Player = styled.section`
+  max-width: 1054px;
+  height: 364px;
+  background: RGBA(52, 58, 64, 0.4);
+  border-radius: ${(props) =>
+    props.order === 'true'
+      ? '300px 20px 124px 300px'
+      : '124px 300px 300px 20px'};
+  padding: ${(props) =>
+    props.order === 'true' ? '  0 96px 22px 22px' : ' 0 22px 22px 96px'};
+  margin-bottom: 56px;
 
   display: grid;
   grid-template-columns: ${(props) =>
-    props.pageCases ? "repeat(6, 1fr)" : "repeat(4, 1fr) 2fr"};
-
+    props.order === 'true' ? '1fr 3fr' : '3fr 1fr'};
+  row-gap: 20px;
+  column-gap: 94px;
   align-items: center;
 
-  .project {
-    width: 100%;
-    max-width: 123px;
-    height: 123px;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  #player {
+    grid-column: ${(props) => (props.order === 'true' ? ' 1/2' : '2/3')};
+    grid-row: 1/3;
+    margin-top: -60px;
   }
-  .description {
-    width: 100%;
-    display: flex;
-    margin: 0 auto 0 47px;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    cursor: pointer;
+  .content {
+    grid-column: ${(props) => (props.order === 'true' ? ' 2/3' : '1/2')};
+    grid-row: 1/3;
 
-    span {
-      /* width: 151px; */
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.12em;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-      background-clip: text;
-      cursor: pointer;
+    display: grid;
+    grid-template-rows: auto;
+    #name {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 125.1%;
+      color: #fff;
+    }
+    #tag {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 32px;
       background: -webkit-linear-gradient(
-        10.34deg,
-        #552ee5 14.56%,
-        #ee5a59 85.55%
+        40.72deg,
+        #2a9e98 14.56%,
+        #7ee1cb 85.55%
       );
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    img {
-      width: 76px;
-      transition: 500ms;
+    #description {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      margin-bottom: 16px;
     }
-
-    &:hover {
-      img {
-        width: 157px;
-      }
-    }
-  }
-  @media ${({ theme }) => theme.breakpoint.mobileL} {
-    ${(props) => !props.pageCases && "grid-template-columns: 1fr 1fr 1fr "};
-    ${(props) => !props.pageCases && "grid-template-rows: 1fr 1fr "};
-
-    justify-items: center;
-    .project {
-      ${(props) => !props.pageCases && " display: none;"};
-    }
-    .description {
-      grid-column: 1/4;
-      grid-row: 1/3;
-      align-self: center;
-      width: auto;
-      margin: 0;
-      text-align: center;
+    #role {
+      font-size: 16px;
+      line-height: 23px;
+      color: #ffffff;
+      opacity: 0.8;
+      text-align: justify;
     }
   }
-`;
+`
+
 export const Cases = styled.div`
   width: 100%;
   margin: 72px 0 132px;
   padding: 0 123px;
-  background: url("assets/filter_space.svg");
+  background: url('assets/filter_space.svg');
   cursor: pointer;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -98,17 +107,17 @@ export const Cases = styled.div`
   }
 
   .content-image {
-    grid-column: ${(props) => (props.order === "true" ? "1/2" : "2/3")};
+    grid-column: ${(props) => (props.order === 'true' ? '1/2' : '2/3')};
     grid-row: 1/2;
 
-    justify-self: ${(props) => (props.order === "true" ? "end" : "start")};
+    justify-self: ${(props) => (props.order === 'true' ? 'end' : 'start')};
     width: 100%;
     max-width: 416px;
     height: 278px;
     background: ${(props) =>
       props.color
         ? props.color
-        : "linear-gradient(180deg, rgba(85, 46, 229, 0.4) 0%, rgba(85, 46, 229, 0) 100%)"};
+        : 'linear-gradient(180deg, rgba(85, 46, 229, 0.4) 0%, rgba(85, 46, 229, 0) 100%)'};
 
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -119,7 +128,7 @@ export const Cases = styled.div`
 
     &:hover {
       background: ${(props) =>
-        props.hover ? props.hover : "rgba(85, 46, 229, 0.4)"};
+        props.hover ? props.hover : 'rgba(85, 46, 229, 0.4)'};
     }
     img {
       width: auto;
@@ -131,8 +140,8 @@ export const Cases = styled.div`
     margin: 16px 0 72px;
   }
   .content-description {
-    grid-column: ${(props) => (props.order === "true" ? "2/3" : "1/2")};
-    justify-self: ${(props) => (props.order === "true" ? "start" : "end")};
+    grid-column: ${(props) => (props.order === 'true' ? '2/3' : '1/2')};
+    justify-self: ${(props) => (props.order === 'true' ? 'start' : 'end')};
     grid-row: 1/2;
 
     width: 100%;
@@ -175,9 +184,9 @@ export const Cases = styled.div`
       grid-row: 1/2;
       grid-column: 1/2;
       border-radius: ${(props) =>
-        props.order === "true" ? " 20px 0 0 20px" : "0 20px 20px 0"};
+        props.order === 'true' ? ' 20px 0 0 20px' : '0 20px 20px 0'};
       justify-content: ${(props) =>
-        props.order === "true" ? "flex-end" : "flex-start"};
+        props.order === 'true' ? 'flex-end' : 'flex-start'};
     }
     .content-description {
       grid-row: 2/3;
@@ -185,4 +194,4 @@ export const Cases = styled.div`
       justify-self: center;
     }
   }
-`;
+`

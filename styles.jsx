@@ -106,7 +106,22 @@ export const Container = styled.div`
     display: grid;
     grid-auto-columns: auto;
   }
+  .header-center-default {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
 
+    h5 {
+      margin-top: 148px;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+  }
   h3 {
     font-weight: 500;
     font-size: 18px;

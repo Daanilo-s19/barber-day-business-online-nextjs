@@ -1,12 +1,14 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Section = styled.section`
   display: grid;
   grid-template-columns: minmax(auto, 123px) 1fr minmax(auto, 123px);
   margin: 56px 0 181px;
-  background: url("assets/filter_space.svg");
+  background: url('assets/filter_space.svg');
 
   .content-item {
+    max-width: 1366px;
+    justify-self: center;
     grid-column: 2/3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -18,6 +20,27 @@ export const Section = styled.section`
   }
   .content-mobile {
     display: none;
+  }
+
+  .header-center-default {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 72px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    h4 {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 125.1%;
+    }
   }
 
   @media ${({ theme }) => theme.breakpoint.tablet} {
@@ -48,4 +71,4 @@ export const Section = styled.section`
       grid-template-columns: 320px;
     }
   }
-`;
+`
