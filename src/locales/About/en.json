@@ -1,0 +1,85 @@
+{
+  "splashScreen": "Under construction",
+  "menu": {
+    "item": {
+      "button": "Start a Project",
+      "menu": [
+        { "link": "/", "name": "Home" },
+        { "link": "/About", "name": "About" },
+        { "link": "https://blog.spacerocket.com.br/", "name": "Blog" }
+      ]
+    }
+  },
+  "bannerStarted": {
+    "title": "Don't know where to start?",
+    "subtitle": "We will help you find out.",
+    "button": "Let's Talk"
+  },
+  "OurAbout": {
+    "paragraph": {
+      "1": "We are a technology startup with a mission to impact millions of people in different markets through incredible experiences. We build world-class applications and systems with quality and agility.",
+      "2": "Appearances to reduce the bureaucracy of software development, apply as customized solutions that can leverage your sales or improve your processes.",
+      "3": " Always focuses on providing efficient and capable solutions, all with our Space Rocket touch, always with the purpose of boosting your enterprise."
+    },
+    "user": [
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C5603AQE6zZ7oNtXhkw/profile-displayphoto-shrink_800_800/0?e=1598486400&v=beta&t=VGEzBIZZg6s4Bt-Sp5vCLnUk4nFG3U3tKx0336TSbVk",
+        "name": "José Cleiton",
+        "description": " olá mundo"
+      },
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C5603AQGD6XluDFnztA/profile-displayphoto-shrink_800_800/0?e=1598486400&v=beta&t=dDB9YOyGXSpxDRpD6G4yp6wjPmSe3A9kGPjBEYvtDT8",
+        "name": "José Diôgo",
+        "description": " olá mundo"
+      },
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C4E03AQGlSub561MLIg/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=0M0uWakUmyr733-LmAHwPNc1V_t8UEMT7VyJ3ICb9P8",
+        "name": "Danilo Nascimento",
+        "description": " olá mundo"
+      },
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C4E03AQGZm6cKSjHWMQ/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=IT0HmFdkN9t83KgR222QOJhD5Vit3G_tEimHUIt0X7Q",
+        "name": "Paloma Correia",
+        "description": " olá mundo"
+      },
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C4E03AQHoD1aJhjFzuA/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=ONfHKxi8uPczTC_IFHL3ZfCZfg6ufOoTqfPu965M3GA",
+        "name": "Fernando Maia",
+        "description": " olá mundo"
+      },
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C4E03AQHiLSzBorqGow/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=8grRyW-7_iNkwxM240IWcw2wNj4xV6PEBwtmGSwvUqk",
+        "name": "Ricardo Matos",
+        "description": " olá mundo"
+      },
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C4D03AQHykG8GKvWiZQ/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=SnQqyH1dqDUmZyohW6SS_BYRVIiuWIrOrlCP_iYesnY",
+        "name": "Elisa Brotto",
+        "description": " olá mundo"
+      },
+      {
+        "imgUser": "https://media-exp1.licdn.com/dms/image/C4E03AQGyRxzi4waxew/profile-displayphoto-shrink_200_200/0?e=1598486400&v=beta&t=q--PHsWNlaPak7BvMhla55eRX0B1bjWSjuyWo3o8gls",
+        "name": "Ícaro Leite",
+        "description": " olá mundo"
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "footer": {
+    "item": {
+      "tag": "We are hiring",
+      "designer": "Design by Guilherme Cavalcante",
+      "menu": [
+        { "link": "/Cases", "name": "Cases" },
+        { "link": "#services", "name": "Serviços" },
+        { "link": "/About", "name": "Sobre Nós" },
+        { "link": "https://blog.spacerocket.com.br/", "name": "Blog" }
+      ]
+    }
+  }
+}

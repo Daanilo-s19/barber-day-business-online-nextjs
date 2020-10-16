@@ -1,0 +1,230 @@
+{
+  "homepage": {
+    "splashScreen": "loading",
+    "menu": {
+      "item": {
+        "button": "Start a Project",
+        "menu": [
+          { "link": "/", "name": "Home" },
+          { "link": "/About", "name": "About" },
+          { "link": "https://blog.spacerocket.com.br/", "name": "Blog" }
+        ]
+      }
+    },
+    "hero": {
+      "title": "We create, develop and manage digital products.",
+      "subtitle": "We boost your business through technology, developing exclusive digital solutions for your enterprise.",
+      "button": "Start a project"
+    },
+    "awardsSection": {
+      "title": "Awards",
+      "subtitle": "Recognition of a lot of work",
+      "item": [
+        {
+          "years": "2019",
+          "local": "Correio de Futuro",
+          "awards": "1st place"
+        },
+        {
+          "years": "2018",
+          "local": "Desafios Bahia Mercado Agri",
+          "awards": "1st place"
+        },
+        {
+          "years": "2017",
+          "local": "Desafios Bahia emprega",
+          "awards": "1st place"
+        },
+        {
+          "years": "2017",
+          "local": "Inova mais saúde",
+          "awards": "1st place"
+        },
+        {
+          "years": "2019",
+          "local": "Hackathon Solidário",
+          "awards": "Finalist"
+        }
+      ]
+    },
+    "ServicesSection": {
+      "title": "services",
+      "subtitle": "The ideal solution for your digital business",
+      "item": [
+        {
+          "img": "assets/Union.svg",
+          "title": "Applications",
+          "subtitle": "We build custom applications for your enterprise, exclusive solutions for Android and IOS devices."
+        },
+        {
+          "img": "assets/web_services.svg",
+          "title": "Web Sites",
+          "subtitle": "We create and update your website with a customized design and attractive elements, always thinking about establishing your company's presence on the internet."
+        },
+        {
+          "img": "assets/plataform_services.svg",
+          "title": "Web platforms",
+          "subtitle": "We develop web systems to automate and facilitate your company's functions and processes, bringing a competitive advantage to your business."
+        }
+      ]
+    },
+    "methodSection": {
+      "title": "Methodology",
+      "subtitle": "We provide an agile process to develop your solution:",
+      "method": {
+        "method01": {
+          "title": "Exploratory Meeting",
+          "description": "Here we fully understand your need by raising solutions and questions to guide the next stages of the project, always aiming to create the best solution for your business"
+        },
+        "method02": {
+          "title": "Design creation",
+          "description": "We create a unique look for your solution, always aiming to transmit your business in your software. In this step we carry out the interface design, thinking about the harmony of the elements and the best experience for your user."
+        },
+        "method03": {
+          "title": "Development",
+          "description": "Here you follow closely everything that is being done, bringing the client into the development process and always validating with him the steps for the next steps"
+        },
+        "method04": {
+          "title": "Delivery and Feedback",
+          "description": "Voila! Your project is ready to go live."
+        }
+      }
+    },
+    "casesSection": {
+      "title": "Cases",
+      "subtitle": "Check out our latest work",
+      "allCases": {
+        "parte1": "Meet everyone",
+        "parte2": "our projects"
+      },
+      "item": [
+        {
+          "tag": "UI, Front-end, back-end",
+          "img": "assets/cases/rosa.png",
+          "title": "Leitor Pauteiro",
+          "description": "The tariff reader is a platform developed for the Correio da Bahia newspaper, where its readers can send news suggestions or make complaints directly to the newspaper's editorial staff through a chatbot to Rosa. This project was part of Future Mail of the Year Award 2019 ",
+          "color": "linear-gradient(180deg, rgba(237, 26, 59, 0.4) 0%, rgba(237, 26, 59, 0) 100%)",
+          "hover": "rgba(237, 26, 59, 0.4)"
+        },
+        {
+          "tag": "UI, Front-end, back-end",
+          "img": "assets/cases/dan.png",
+          "title": "Data And Nutrition",
+          "description": "Data And Nutrition is a platform used in hospitals for nutritional management of inpatients, helping to combat hospital malnutrition and providing continuous monitoring of the status of inmates.",
+          "color": "linear-gradient(180deg, rgba(32, 144, 237, 0.4) 0%, rgba(32, 146, 239, 0) 100%)",
+          "hover": "rgba(32, 144, 237, 0.4)"
+        },
+        {
+          "tag": "UI, Front-end, back-end",
+          "img": "assets/cases/dizzness.png",
+          "title": "Dizziness App",
+          "description": "Application used as an auxiliary tool to combat dizziness and labyrinthitis. The Dizziness App was created with the purpose of assisting specialists in audiology and speech therapists in the process of treating patients, making them gain resistance to circumstances that cause discomfort. . ",
+          "color": "linear-gradient(180deg, rgba(41, 182, 246, 0.4) 0%, rgba(41, 182, 246, 0) 100%)",
+          "hover": "rgba(41, 182, 246, 0.4)"
+        }
+      ],
+      "subItem": [
+        "assets/cases/subitem/dixx.svg",
+        "assets/cases/subitem/oab.svg",
+        "assets/cases/subitem/lunna.svg",
+        "assets/cases/subitem/constante.svg"
+      ]
+    },
+    "commentsSection": {
+      "title": "Testimonials",
+      "subtitle": "Feedback from our customers",
+      "item": [
+        {
+          "imageUser": "assets/comments/nilson.jpg",
+          "name": "Nilson",
+          "role": "(Medical Nutrologist) - Data And Nutrition",
+          "comments": "I always like to work with the class. They always do a good job and things work well."
+        },
+        {
+          "imageUser": "assets/comments/juan_torres.jpg",
+          "name": "Juan Torres",
+          "role": "(Innovation Coordinator Correio da Bahia) - Leitor Pauteiro",
+          "comments": "The project met expectations for a very simple reason, which is crucial for an innovation work process: the final product has all the attributes that were promised at the beginning of the work."
+        },
+        {
+          "imageUser": "assets/comments/gloria_canto.jpeg",
+          "name": "Glória Canto",
+          "role": "(Doctor in Speech Therapy) - Dizziness App",
+          "comments": "The application has brought important results to my patients helping them in their recovery. I use it every day in my office, an excellent job!"
+        }
+      ]
+    },
+    "pressSection": {
+      "title": "Press",
+      "subtitle": "Where do we go in the media",
+      "more": "Read more",
+      "item": [
+        [
+          {
+            "img": "assets/press/image01.svg",
+            "title": "Leitor pauteiro: vencedor do Correio de...",
+            "description": "A ideia é que você, leitor, possa enviar sugestões de pautas e acumule pontos pelas ideias. Um robô organizará as propostas e oferecerá as melhores opções para o repórter, a depender da editoria... ",
+            "link": "https://www.correio24horas.com.br/noticia/nid/leitor-pauteiro-vencedor-do-correio-de-futuro-propoe-novas-formas-de-reportar/"
+          },
+          {
+            "img": "assets/press/image02.svg",
+            "title": "Com cerca de 80 mil visitantes, Campus...",
+            "description": "A Campus Party Bahia, que terminou neste domingo (13), na Arena Fonte Nova, em Salvador, atraiu público de 80 mil visitantes desde a quarta-feira (9), além dos seis mil “campuseiros” que...",
+            "link": "https://globoplay.globo.com/v/6748658/"
+          },
+          {
+            "img": "assets/press/image03.svg",
+            "title": "Tecnologia e inovação: Campus Party...",
+            "description": "Evento mistura tecnologia, inovação, educação e empreendedorismo.",
+            "link": " https://g1.globo.com/bahia/noticia/com-cerca-de-80-mil-visitantes-campus-party-bahia-atinge-publico-recorde-de-edicoes-regionais.ghtml"
+          }
+        ]
+      ]
+    },
+    "blogSection": {
+      "title": "Blog",
+      "subtitle": "Latest Articles",
+      "more": "Read more",
+      "item": [
+        [
+          {
+            "img": "assets/blog/image1.svg",
+            "tag": "freelancer",
+            "title": "Propostas para Freelancers: como montar e como gerenciar?",
+            "description": "Muitos Freelancers possuem muita dificuldade em precificar projetos e montar propostas. Além disso, o tempo para montar uma boa proposta"
+          },
+          {
+            "img": "assets/blog/image2.svg",
+            "tag": "freelancer",
+            "title": "Sou Freelancer: Como precificar um projeto?",
+            "description": "Precificar é um dos maiores sofrimentos de qualquer freelancer, seja ele da área de humanas ou exatas. Saber quanto o seu trabalho vale..."
+          },
+          {
+            "img": "assets/blog/image3.svg",
+            "tag": "freelancer",
+            "title": "Gestão de tempo: como otimizar a sua vida freelancer",
+            "description": "Muito se fala em gestão de tempo, principalmente quando o assunto é o trabalho como freelancer. Mas como administrar clientes..."
+          }
+        ]
+      ]
+    },
+    "bannerStarted": {
+      "title": "Don't know where to start?",
+      "subtitle": "We will help you find out.",
+      "button": "Let's Talk"
+    },
+
+    "footer": {
+      "item": {
+        "tag": "We are hiring",
+        "designer": "Design by Guilherme Cavalcante",
+        "menu": [
+          { "link": "/Cases", "name": "Cases" },
+          { "link": "#services", "name": "Services" },
+          { "link": "/About", "name": "About" },
+          { "link": "https://blog.spacerocket.com.br/", "name": "Blog" }
+        ]
+      }
+    }
+  }
+}

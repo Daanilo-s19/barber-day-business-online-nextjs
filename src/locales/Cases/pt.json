@@ -1,0 +1,71 @@
+{
+  "splashScreen": "Em construção",
+  "menu": {
+    "item": {
+      "button": "Comece um Projeto",
+      "menu": [
+        { "link": "/", "name": "Início" },
+        { "link": "/About", "name": "Sobre Nós" },
+        { "link": "https://blog.spacerocket.com.br/", "name": "Blog" }
+      ]
+    }
+  },
+  "hero": {
+    "title": " Nossos projetos",
+    "subtitle": "Impulsionamos seu negócio através da tecnologia, desenvolvendo soluções digitais exclusivas para seu empreendimento."
+  },
+  "casesSection": {
+    "title": "Cases",
+    "subtitle": "Confira nossos últimos trabalhos",
+    "clients": "Outros clientes",
+    "allCases": {
+      "parte1": "Conheça todos",
+      "parte2": "nossos projetos"
+    },
+    "item": [
+      {
+        "tag": "UI, Front-end, back-end",
+        "img": "assets/cases/constante.svg",
+        "title": "Constante",
+        "description": "O leitor pauteiro é uma plataforma desenvolvida para o jornal Correio da Bahia, onde os seus leitores podem enviar sugestões de notícias ou fazer denúncias diretamente para a redação do jornal por meio de um chatbot a Rosa. Este projeto fez parte do prêmio Correio de Futuro do ano 2019",
+        "color": "linear-gradient(180deg, rgba(0, 154, 147, 0.4) 0%, rgba(0, 154, 147, 0) 100%)",
+        "hover": "rgba(0, 154, 147, 0.4)"
+      },
+      {
+        "tag": "GAME",
+        "img": "assets/cases/jump.svg",
+        "title": "Jump box",
+        "description": "Data And Nutrition é uma plataforma utilizada em hospitais para gestão nutricional de pacientes internados, auxiliando ao combate à desnutrição hospitalar e proporcionando um acompanhamento contínuo do estado dos internos.",
+
+        "hover": "rgba(166, 134, 56, 0.4)",
+        "color": "linear-gradient(180deg, rgba(166, 134, 56, 0.4) 0%, rgba(166, 134, 56, 0) 100%);backdrop-filter: blur(10px);"
+      },
+      {
+        "tag": "UI, Front-end, back-end",
+        "img": "assets/image_case_default.png",
+        "title": "Dizziness App",
+        "description": "Aplicativo utilizado como ferramenta auxiliar no combate da tontura e labirintite. O Dizziness App nasceu com o propósito de auxiliar especialistas em audiologia e fonoaudiologistas no processo de tratamento dos pacientes, fazendo com que os mesmos ganhem resistência a circunstâncias que provoquem desconforto."
+      }
+    ],
+    "subItem": [
+      "assets/cases/subitem/google.svg",
+      "assets/cases/subitem/dixx.svg",
+      "assets/cases/subitem/google.svg",
+      "assets/cases/subitem/probahia.svg",
+      "assets/cases/subitem/uneb.svg",
+      "assets/cases/subitem/cqr.svg"
+    ]
+  },
+  "footer": {
+    "item": {
+      "tag": "Estamos contratando",
+      "designer": "Design por Guilherme Cavalcante",
+      "menu": [
+        { "link": "/Cases", "name": "Cases" },
+        { "link": "#services", "name": "Serviços" },
+        { "link": "/About", "name": "Sobre Nós" },
+        { "link": "https://blog.spacerocket.com.br/", "name": "Blog" }
+      ]
+    }
+  }
+}
