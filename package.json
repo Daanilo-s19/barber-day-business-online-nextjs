@@ -9,6 +9,7 @@
   "dependencies": {
     "aos": "^2.3.4",
     "axios": "^0.20.0",
+    "eslint": "^7.11.0",
     "next": "latest",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",

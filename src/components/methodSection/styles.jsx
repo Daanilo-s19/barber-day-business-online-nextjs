@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Section = styled.section`
   max-width: 1366px;
@@ -9,7 +9,7 @@ export const Section = styled.section`
 
   .content-header {
     display: grid;
-    grid-template-columns: minmax(auto, 155px) 1.5fr 2fr minmax(auto, 155px);
+    grid-template-columns: minmax(auto, 123px) 1.5fr 2fr minmax(auto, 123px);
 
     .title {
       grid-column: 2/3;
@@ -129,7 +129,7 @@ export const Section = styled.section`
       }
     }
   } */
-`;
+`
 
 export const Item = styled.div`
   width: 352px;
@@ -240,4 +240,4 @@ export const Item = styled.div`
       line-height: 6px;
     }
   }
-`;
+`
