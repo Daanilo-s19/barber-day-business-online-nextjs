@@ -3,18 +3,19 @@ import Menu from "../components/Menu";
 import Hero from "../components/Hero";
 import SplashScreen from "../components/SplashScreen";
 import useI18n from "../hooks/use-i18n";
-import { Container } from "../../styles";
+import { Container, Content } from "../../styles";
 import en from "../locales/en.json";
 import pt from "../locales/pt.json";
+import WhatsSection from "../components/whatsSection";
 
 export default function Home() {
   const i18n = useI18n();
-  const [loading, setloading] = useState(false);
+  const [loading, setloading] = useState(true);
   const [form, setForm] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
-      // setloading(false);
+      setloading(false);
     }, 3000);
   }, []);
 
@@ -43,6 +44,15 @@ export default function Home() {
             title="Tenha uma barbearia organizada e lucrativa!"
             textButton="Alavancar minha barbearia agora"
             onChange={(value) => setForm(value)}
+          />
+          <WhatsSection
+            title="O que é o"
+            subtitle="Barber Day Business Online?"
+            description="A Barbearia é antes de mais nada uma empresa.
+            E se você quer ter sucesso você precisa ser um bor gestor.
+            Oferecer um serviço de excelência é só uma peça do quebra cabeça."
+            labelButton="Você quer ser ter uma Barbearia organizada e próspera?"
+            textButton="Alavancar minha barbearia agora"
           />
         </div>
       </Container>

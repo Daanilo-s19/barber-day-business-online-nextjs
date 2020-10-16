@@ -3,9 +3,7 @@ import styled from "styled-components";
 export const Header = styled.header`
   width: 100%;
   height: 768px;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  margin-top: 40px;
+  margin-top: 60px;
 
   h1 {
     width: 100%;
@@ -57,8 +55,19 @@ export const Header = styled.header`
     align-items: center;
   }
 
+  .polygon-left {
+    width: auto;
+    height: auto;
+    background: url("assets/background/Esquerda-hero.svg") 0% 100% no-repeat;
+  }
+  .polygon-right {
+    width: auto;
+    height: auto;
+    background: url("assets/background/Direita- Hero.svg") 100% 100% no-repeat;
+  }
+
   #polygon1 {
-    width: 100%;
+    width: 100;
     height: 720px;
     -z-index: -99;
     margin-top: -150px;
@@ -75,19 +84,6 @@ export const Header = styled.header`
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg); */
-  }
-  #polygon2 {
-    width: 100%;
-    height: 720px;
-    margin-top: -150px;
-    margin-left: -135px;
-    background: linear-gradient(
-      180deg,
-      #156671 0%,
-      rgba(8, 55, 75, 0) 57.78%,
-      rgba(3, 22, 31, 0) 57.78%
-    );
-    transform: rotate(-150deg);
   }
 
   /* .play {
