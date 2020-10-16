@@ -15,6 +15,7 @@ export default function CasesSection(props) {
       {cases &&
         cases.map((element, index) => (
           <Player
+            key={index}
             order={index % 2 == 0 ? 'true' : 'false'}
             data-aos={
               screen.width > 768

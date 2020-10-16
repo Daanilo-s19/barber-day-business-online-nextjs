@@ -16,6 +16,8 @@ import { Container, Content } from '../../styles'
 import en from '../locales/en.json'
 import pt from '../locales/pt.json'
 import Button from '../components/Button'
+import FaqSection from '../components/faqSection'
+import Footer from '../components/footer'
 export default function Home() {
   const i18n = useI18n()
   const [loading, setloading] = useState(true)
@@ -224,6 +226,32 @@ export default function Home() {
               Alavancar minha barbearia agora
             </Button>{' '}
           </div>
+          <FaqSection
+            item={[
+              {
+                title: 'PARA QUEM É ESSE CURSO?',
+                description:
+                  '• Se você tem ou deseja ter uma Barbearia esse curso é pra você!\n       • Se você quer aprender a administrar sua Barbearia pequena e quer progredir,\nesse curso é pra você.\n• Se você tem uma barbearia sólida mas quer dar o próximo passo, esse curso é para você.\n• Se você quer abrir uma barbearia bem estruturada do zero, com muito mais chances de dar certo e crescer, esse curso é pra você!\n• Se você que aprender o necessário para expandir sua visão de negócios, e saber a direção certa para prosperar, esse curso definitivamente é pra você!',
+              },
+              {
+                title: 'O QUE ESTÁ INCLUSO?',
+                description:
+                  'Você tem acesso a todas as aulas EXCLUSIVAS gravadas para o BARBER DAY BUSINESS ONLINE, são mais de 10 horas de conteúdo. Você também tem acesso a gravação de TODAS as palestras ministradas no evento presencial do BARBER DAY BUSINESS, são mais de 7 horas de conteúdo. TUDO Liberado no ato da sua inscrição.\nAlém de tudo disso nós ainda adicionamos aulas novas todos os meses, e fazemos lives com frequência para solucionar as dúvidas dos alunos.',
+              },
+              {
+                title: 'TEREI UM CERTIFICADO?',
+                description:
+                  'SIM! Com 35 dias de acesso você recebe o CERTIFICADO BARBER DAY BUSINESS ONLINE. no formato PDF para você postar nas redes sociais e imprimir em gráfica da sua escolha.\n Você também pode optar por receber seu certificado impresso em casa,pagando uma pequena taxa + frete.\n *Envio disponível apenas para o Brasil.',
+              },
+              {
+                title: 'QUAL A DURAÇÃO DO CURSO?',
+                description:
+                  'Ao adquirir o BARBER DAY BUSINESS ONLINE você terá acesso a plataforma por 12 meses. Durante esse tempo você pode ver todo o conteúdo do curso quantas vezes desejar.',
+              },
+            ]}
+          />
+
+          <Footer />
         </div>
       </Container>
     </>
