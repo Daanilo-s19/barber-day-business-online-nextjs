@@ -9,6 +9,7 @@ import pt from '../locales/pt.json'
 import WhatsSection from '../components/whatsSection'
 import AwardsSection from '../components/methodSection'
 import BonusSection from '../components/bonusSection'
+import CertificateSection from '../components/certificateSection'
 
 export default function Home() {
   const i18n = useI18n()
@@ -116,6 +117,7 @@ export default function Home() {
             ]}
           />
           <BonusSection />
+          <CertificateSection />
         </div>
       </Container>
     </>
