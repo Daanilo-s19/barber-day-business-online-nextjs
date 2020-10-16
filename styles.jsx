@@ -82,12 +82,10 @@ code {
 }
 
 `;
-
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  max-width: 1366px;
-  margin: 0 auto;
+
   /* background: red; */
   background: url("assets/background/Seu-Elias.svg");
   background-repeat: no-repeat;
@@ -98,24 +96,36 @@ export const Container = styled.div`
   /* overflow: hidden; */
 
   .filter {
+    width: 100%;
+    height: 100vh;
     background: RGBA(13, 21, 29, 0.81);
   }
 
   .content-center-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 143px;
-    text-align: center;
+    display: grid;
+    grid-auto-columns: auto;
   }
 
   h3 {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-variant: small-caps;
+    background: -webkit-linear-gradient(
+      40.72deg,
+      #2a9e98 14.56%,
+      #7ee1cb 85.55%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   h4 {
+    width: 100%;
+    max-width: 540px;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
