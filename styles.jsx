@@ -185,13 +185,12 @@ export const Container = styled.div`
     margin: 0;
 
     h3 {
-      font-size: 10px;
-      line-height: 12px;
-    }
-    h4 {
-      width: 296px;
+      font-weight: 500;
       font-size: 16px;
       line-height: 19px;
+    }
+    h4 {
+      font-size: 20px;
     }
   }
   /* background: blue; */

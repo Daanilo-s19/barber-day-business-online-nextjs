@@ -1,11 +1,12 @@
 import styled from 'styled-components'
 
 export const Container = styled.section`
-  width: 100vw;
+  max-width: 1366px;
   display: grid;
+  margin: 0 auto;
   padding-top: 192px;
   grid-template-columns: repeat(3, 1fr);
-  background: url('assets/background/bonus.svg') 35% 35% no-repeat;
+  background: url('assets/background/bonus.svg') center 35% no-repeat;
   /* animation: opacity 3s infinite alternate; */
 
   .max-header {
@@ -33,7 +34,7 @@ export const Container = styled.section`
   .content-center {
     justify-self: center;
     img {
-      animation: go-back 3s infinite alternate;
+      /* animation: go-back 3s infinite alternate; */
     }
   }
 

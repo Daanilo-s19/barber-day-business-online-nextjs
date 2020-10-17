@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Header = styled.header`
   width: 100%;
@@ -57,12 +57,12 @@ export const Header = styled.header`
   .polygon-left {
     width: auto;
     height: auto;
-    background: url("assets/background/Esquerda-hero.svg") 0% 100% no-repeat;
+    background: url('assets/background/Esquerda-hero.svg') 0% 100% no-repeat;
   }
   .polygon-right {
     width: auto;
     height: auto;
-    background: url("assets/background/Direita- Hero.svg") 100% 100% no-repeat;
+    background: url('assets/background/Direita- Hero.svg') 100% 100% no-repeat;
   }
 
   .arrow-down {
@@ -107,10 +107,23 @@ export const Header = styled.header`
   } */
 
   @media ${({ theme }) => theme.breakpoint.mobileL} {
+    .dash {
+      width: 340px;
+      height: 191px;
+      padding: 10px;
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+      button {
+        width: 312px;
+      }
+    }
     h1 {
-      width: 304px;
-      font-size: 20px;
-      line-height: 24px;
+      max-width: 254px;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 26px;
     }
     h2 {
       width: 296px;
@@ -118,4 +131,13 @@ export const Header = styled.header`
       line-height: 16px;
     }
   }
-`;
+  @media ${({ theme }) => theme.breakpoint.mobileS} {
+    .dash {
+      width: 300px;
+      padding: 5px;
+    }
+    button {
+      width: 300px;
+    }
+  }
+`

@@ -60,12 +60,13 @@ export default function Home() {
             description={
               <span>
                 A Barbearia é antes de mais nada uma empresa.
-                <br />E se você quer ter ucesso você precisa ser um bor gestor.
+                <br />E se você quer ter ucesso você precisa ser um bom gestor.
                 <br />
                 Oferecer um serviço de excelência é só uma peça do quebra
                 cabeça.
               </span>
             }
+            responsiveDescription="A Barbearia é antes de mais nada uma empresa. E se você quer ter sucesso você precisa ser um bom gestor. Oferecer um serviço de excelência é só uma peça do quebra cabeça."
             labelButton="Você quer ser ter uma Barbearia organizada e próspera?"
             textButton="Alavancar minha barbearia agora"
           />
@@ -122,7 +123,7 @@ export default function Home() {
               },
             ]}
           />
-          <BonusSection />
+          {/*   <BonusSection />
           <CertificateSection />
           <PriceSection />
           <StampSection />
@@ -252,6 +253,7 @@ export default function Home() {
           />
 
           <Footer />
+          */}
         </div>
       </Container>
     </>

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const Navbar = styled.nav`
   width: 100%;
@@ -56,6 +56,7 @@ export const Navbar = styled.nav`
     display: grid;
     grid-template-columns: repeat(4, auto);
     gap: 88px;
+
     div {
       display: flex;
       flex-direction: column;
@@ -67,7 +68,7 @@ export const Navbar = styled.nav`
         line-height: 26px;
         display: flex;
         align-items: center;
-        text-align: center;
+        justify-content: center;
       }
       span {
         font-size: 12px;
@@ -82,19 +83,38 @@ export const Navbar = styled.nav`
     }
   }
 
-  @media ${({ theme }) => theme.breakpoint.tablet} {
-    .content-menu {
-      display: none;
-    }
-    .content-menu-responsive {
-      display: block;
-      justify-self: end;
-      align-self: center;
-    }
-  }
-  @media ${({ theme }) => theme.breakpoint.tablet} {
+  @media ${({ theme }) => theme.breakpoint.mobileL} {
     .content {
-      grid-template-columns: 32px 1fr 3fr 32px;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      row-gap: 36px;
+
+      .content-logo {
+        grid-column: 1/3;
+        grid-row: 1/2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .content-countdown {
+        grid-column: 1/3;
+        grid-row: 2/3;
+      }
+      .countdown {
+        grid-template-columns: repeat(4, 60px);
+        /* gap: 46px; */
+        gap: 16px;
+
+        h4 {
+          width: 60px;
+          font-size: 20px;
+          line-height: 22px;
+        }
+        span {
+          font-size: 10px;
+          line-height: 12px;
+        }
+      }
     }
   }
-`;
+`

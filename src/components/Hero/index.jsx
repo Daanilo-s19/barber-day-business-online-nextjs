@@ -1,9 +1,9 @@
-import Button from "../Button";
-import PropTypes from "prop-types";
-import { Header } from "./styles";
+import Button from '../Button'
+import PropTypes from 'prop-types'
+import { Header } from './styles'
 
 export default function Hero(props) {
-  const { title, textButton, activeButton, onChange } = props;
+  const { title, textButton, activeButton, onChange } = props
   return (
     <>
       <Header data-aos="fade-up">
@@ -17,7 +17,7 @@ export default function Hero(props) {
                 <div></div>
               </div>
 
-              <div className="dash">
+              <div className="dash border-top border-left border-right border-bottom">
                 <iframe
                   width="560"
                   height="315"
@@ -48,7 +48,7 @@ export default function Hero(props) {
         </div>
       </Header>
     </>
-  );
+  )
 }
 
 Hero.propTypes = {
@@ -57,4 +57,4 @@ Hero.propTypes = {
   textButton: PropTypes.string.isRequired,
   activeButton: PropTypes.bool.isRequired,
   onChange: PropTypes.func.isRequired,
-};
+}
