@@ -190,7 +190,7 @@ export const Container = styled.section`
     }
   }
 
-  @media ${({ theme }) => theme.breakpoint.mobileS} {
+  @media ${({ theme }) => theme.breakpoint.mobileM} {
     width: 320px;
     .descripiton {
       max-width: 100%;

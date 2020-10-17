@@ -53,4 +53,49 @@ export const Container = styled.section`
       opacity: 0.8;
     }
   }
+  @media ${({ theme }) => theme.breakpoint.tablet} {
+    height: auto;
+    padding: 64px 0 80px;
+    .content {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+
+    /* #stamp { */
+    /* width: 241px; */
+    /* height: 218px; */
+    /* padding: 0; */
+    /* } */
+
+    .description {
+      label {
+        max-width: 309px;
+        text-align: center;
+      }
+
+      p {
+        width: 309px;
+        text-align: center;
+      }
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileS} {
+    .description {
+      width: 320px;
+      display: flex;
+      flex-direction: column;
+
+      label {
+        font-size: 20px;
+      }
+
+      p {
+        padding: 0 16px;
+        font-size: 16px;
+      }
+    }
+  }
 `

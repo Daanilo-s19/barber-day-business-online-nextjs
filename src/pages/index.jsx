@@ -127,7 +127,7 @@ export default function Home() {
           <BonusSection />
           <CertificateSection />
           <PriceSection />
-          {/*<StampSection />
+          <StampSection />
           <CasesSection
             pageCases={false}
             title="APRENDA COM QUEM Foi lá e fez"
@@ -215,19 +215,21 @@ export default function Home() {
               ],
             ]}
           />
-          <div className="header-center-default" style={{ height: '96px' }}>
-            <Button
-              width="332px"
-              image="assets/arrow_right.svg"
-              bgColor="#2A9E98"
-              childrenColor="#F0F4FA"
-              shadow={true}
-              bgHover="rgba(42, 158, 152, 1)"
-              onClick={() => onChange(true)}
-            >
-              Alavancar minha barbearia agora
-            </Button>{' '}
-          </div>
+          {screen.width >= 768 && (
+            <div className="header-center-default" style={{ height: '96px' }}>
+              <Button
+                width="332px"
+                image="assets/arrow_right.svg"
+                bgColor="#2A9E98"
+                childrenColor="#F0F4FA"
+                shadow={true}
+                bgHover="rgba(42, 158, 152, 1)"
+                onClick={() => onChange(true)}
+              >
+                Alavancar minha barbearia agora
+              </Button>{' '}
+            </div>
+          )}
           <FaqSection
             item={[
               {
@@ -252,7 +254,6 @@ export default function Home() {
               },
             ]}
           />{' '}
-          */}
           <Footer />
         </div>
       </Container>

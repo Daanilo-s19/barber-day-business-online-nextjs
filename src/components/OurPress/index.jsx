@@ -3,6 +3,7 @@ import SectionDefault from '../SectionDefault'
 import { ItemPress } from './styles'
 import AboutMore from '../AboutMore'
 import { useState } from 'react'
+import Button from '../Button'
 
 export default function PressSection(props) {
   const { title, subtitle, item, more } = props
@@ -38,6 +39,19 @@ export default function PressSection(props) {
             ))
           )
         })}
+      {screen.width <= 425 && (
+        <Button
+          width="332px"
+          image="assets/arrow_right.svg"
+          bgColor="#2A9E98"
+          childrenColor="#F0F4FA"
+          shadow={true}
+          bgHover="rgba(42, 158, 152, 1)"
+          onClick={() => onChange(true)}
+        >
+          Alavancar minha barbearia agora
+        </Button>
+      )}
     </SectionDefault>
   )
 }

@@ -43,7 +43,7 @@ export const Section = styled.section`
     }
   }
 
-  @media ${({ theme }) => theme.breakpoint.tablet} {
+  /* @media ${({ theme }) => theme.breakpoint.tablet} {
     grid-template-columns: 32px 1fr 32px;
     .content-item {
       grid-column: 2/3;
@@ -58,7 +58,7 @@ export const Section = styled.section`
     .content-mobile {
       display: block;
     }
-  }
+  } */
   @media ${({ theme }) => theme.breakpoint.tablet} {
     grid-template-columns: 0 100% 0;
     .content-item {

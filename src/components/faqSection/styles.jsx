@@ -7,6 +7,8 @@ export const Container = styled.section`
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  position: relative;
+  z-index: 99;
 
   .max-header {
     width: 100%;
@@ -83,6 +85,22 @@ export const Container = styled.section`
     }
     to {
       opacity: 1;
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileL} {
+    max-width: 768px;
+    padding: 0 24px;
+
+    .item-dropdown {
+      width: 100%;
+      min-height: 70px;
+      grid-template-rows: auto;
+      grid-template-columns: 2fr 1fr;
+
+      .description {
+        /* max-width: 768px; */
+      }
     }
   }
 `

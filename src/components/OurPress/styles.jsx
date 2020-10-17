@@ -32,8 +32,14 @@ export const ItemPress = styled.div`
     }
   }
 
-  @media ${({ theme }) => theme.breakpoint.mobileL} {
-    width: 296px;
-    height: auto;
+  @media ${({ theme }) => theme.breakpoint.tablet} {
+    .content {
+      p {
+        margin: 0 0 56px;
+      }
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileS} {
   }
 `
