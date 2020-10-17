@@ -36,7 +36,7 @@ export default function Home() {
     } else i18n.locale('', en)
   }, [])
   return loading ? (
-    <SplashScreen description={i18n.t('homepage.splashScreen')} />
+    <SplashScreen description="carregando" />
   ) : (
     <>
       {/* {form && <Form onChange={(value) => setForm(value)} />} */}
