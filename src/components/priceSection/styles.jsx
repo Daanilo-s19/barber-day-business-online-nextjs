@@ -24,6 +24,7 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* animation: go-back 3000ms infinite alternate; */
   }
 
   .descripiton {

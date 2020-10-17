@@ -32,9 +32,8 @@ export default function BonusSection(props) {
         image="assets/arrow_right.svg"
         bgColor="#D5FAEB"
         childrenColor="#58C4B5"
-        shadow={true}
-        bgHover="rgba(42, 158, 152, 1)"
-        onClick={() => onChange(true)}
+        shadow={false}
+        bgHover="#fff"
       >
         Alavancar minha barbearia agora
       </Button>

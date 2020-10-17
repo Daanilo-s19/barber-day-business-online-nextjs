@@ -7,7 +7,7 @@ export default function PriceSection(props) {
       <div className="content-center-header max-header" data-aos="fade-up">
         <h4>Quanto custa o Barber Day Business Online?</h4>
       </div>
-      <div className="content">
+      <div className="content" data-aos="fade-up">
         <div className="descripiton">
           <div className="item">
             <span>
@@ -75,7 +75,7 @@ export default function PriceSection(props) {
             bgColor="#D5FAEB"
             childrenColor="#2A9E98"
             shadow={true}
-            bgHover="RGBA(213, 250, 235, 0.9)"
+            bgHover="#fff"
             onClick={() => onChange(true)}
           >
             Alavancar minha barbearia agora

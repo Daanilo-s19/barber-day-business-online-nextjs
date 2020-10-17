@@ -17,6 +17,7 @@ export default function FaqSection(props) {
             <div
               key={idx}
               className="item-dropdown"
+              data-aos="flip-down"
               onClick={() =>
                 itemDropdown == idx
                   ? setItemDropdown(null)
@@ -43,7 +44,7 @@ export default function FaqSection(props) {
           bgColor="#2A9E98"
           childrenColor="#F0F4FA"
           shadow={true}
-          bgHover="rgba(42, 158, 152, 1)"
+          bgHover="rgba(42, 158, 152, 0.6)"
           onClick={() => onChange(true)}
         >
           Alavancar minha barbearia agora

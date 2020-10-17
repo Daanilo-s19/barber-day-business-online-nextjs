@@ -1,4 +1,3 @@
-import Button from '../Button'
 import { Container } from './styles'
 
 export default function Footer(props) {

@@ -223,7 +223,7 @@ export default function Home() {
                 bgColor="#2A9E98"
                 childrenColor="#F0F4FA"
                 shadow={true}
-                bgHover="rgba(42, 158, 152, 1)"
+                bgHover="rgba(42, 158, 152, 0.6)"
                 onClick={() => onChange(true)}
               >
                 Alavancar minha barbearia agora
