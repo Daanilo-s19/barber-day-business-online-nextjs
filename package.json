@@ -12,6 +12,7 @@
     "eslint": "^7.11.0",
     "next": "latest",
     "react": "^16.8.0",
+    "react-compound-timer": "^1.2.0",
     "react-dom": "^16.8.0",
     "react-is": "^16.8.0",
     "rosetta": "^1.1.0",

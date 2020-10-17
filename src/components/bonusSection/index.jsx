@@ -7,13 +7,12 @@ export default function BonusSection(props) {
       <img
         src=" assets/BRUNO-VANENCK.svg"
         id="player"
-        // screen.width <= 425
-        data-aos={true ? 'fade-down' : 'fade-right'}
+        data-aos={screen.width <= 425 ? 'fade-down' : 'fade-right'}
         data-aos-delay="250"
       />
       <div
         className="content"
-        data-aos={true <= 425 ? 'fade-down' : 'fade-left'}
+        data-aos={screen.width <= 425 ? 'fade-down' : 'fade-left'}
         data-aos-delay="1500"
       >
         <img src="assets/bonus.svg" />
