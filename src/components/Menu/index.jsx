@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import { Navbar, Dropdown } from './styles'
 
 export default function Menu(props) {
-  const date = new Date('oct 20 2020')
+  const { title, datefinal } = props
   const now = new Date()
   return (
     <>
@@ -14,11 +14,8 @@ export default function Menu(props) {
             <img src="assets/logo.svg" alt="logan" />
           </div>
           <div className="content-countdown">
-            <label>As inscrições se encerram em:</label>
-            <Timer
-              initialTime={date.getTime() - now.getTime()}
-              direction="backward"
-            >
+            <label>{title}</label>
+            <Timer initialTime={datefinal - now.getTime()} direction="backward">
               {() => (
                 <div className="countdown">
                   <div>

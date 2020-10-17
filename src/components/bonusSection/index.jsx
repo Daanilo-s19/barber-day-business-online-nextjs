@@ -2,6 +2,7 @@ import Button from '../Button'
 import { Container } from './styles'
 
 export default function BonusSection(props) {
+  const { title, paragraph, lastParagraph, textButton } = props
   return (
     <Container>
       <img
@@ -16,16 +17,9 @@ export default function BonusSection(props) {
         data-aos-delay="1500"
       >
         <img src="assets/bonus.svg" />
-        <label>Você ainda vai levar esse bônus incrível!</label>
-        <p id="paragraph">
-          Quem entrar pra essa segunda turma vai receber um módulo extra com um
-          treinamento de <b>GESTÃO e VENDAS</b> com o <b>BRUNO VANENCK</b>, o
-          criador da Barbearia Corleone em São Paulo.
-        </p>
-        <p>
-          Conheça a história da Barbearia Corleone. Com 6 unidades em São Paulo,
-          é considerada uma das barbearias mais conceituadas do mundo.
-        </p>
+        <label>{title}</label>
+        <p id="paragraph">{paragraph}</p>
+        <p>{lastParagraph}</p>
       </div>
       <Button
         width="332px"
@@ -35,7 +29,7 @@ export default function BonusSection(props) {
         shadow={false}
         bgHover="#fff"
       >
-        Alavancar minha barbearia agora
+        {textButton}
       </Button>
     </Container>
   )

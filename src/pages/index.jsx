@@ -43,17 +43,14 @@ export default function Home() {
       <Container>
         <div className="filter">
           <Menu
-            item={{
-              button: i18n.t('homepage.menu.item.button'),
-              menu: i18n.t('homepage.menu.item.menu'),
-            }}
-            onChange={(value) => setForm(value)}
+            title="As inscrições se encerram em:"
+            datefinal={new Date('oct 20 2020')}
           />
           <Hero
             activeButton={true}
+            urlLink="https://www.youtube.com/embed/6raPNl-mfaI"
             title="Tenha uma barbearia organizada e lucrativa!"
             textButton="Alavancar minha barbearia agora"
-            onChange={(value) => setForm(value)}
           />
           <WhatsSection
             title="O que é o"
@@ -124,8 +121,26 @@ export default function Home() {
               },
             ]}
           />
-          <BonusSection />
-          <CertificateSection />
+          <BonusSection
+            title="Você ainda vai levar esse bônus incrível!"
+            paragraph={
+              <>
+                Quem entrar pra essa segunda turma vai receber um módulo extra
+                com um treinamento de <b>GESTÃO e VENDAS</b> com o{' '}
+                <b>BRUNO VANENCK</b>, o criador da Barbearia Corleone em São
+                Paulo.
+              </>
+            }
+            lastParagraph=" Conheça a história da Barbearia Corleone. Com 6 unidades em São Paulo,
+            é considerada uma das barbearias mais conceituadas do mundo."
+            textButton="Alavancar minha barbearia agora
+            "
+          />
+          <CertificateSection
+            title="Certificado"
+            subtitle="Receba seu certificado com código de autenticidade em PDF após 35
+            dias de curso!"
+          />
           <PriceSection />
           <StampSection />
           <CasesSection

@@ -1,6 +1,7 @@
 import { Container } from './styles'
 
 export default function CertificateSection(props) {
+  const { title, subtitle } = props
   return (
     <Container>
       <div className="texture-left">
@@ -9,11 +10,8 @@ export default function CertificateSection(props) {
       </div>
       <div className="content-center">
         <div className="content-center-header max-header" data-aos="fade-up">
-          <h3>Certificado</h3>
-          <h4>
-            Receba seu certificado com código de autenticidade em PDF após 35
-            dias de curso!
-          </h4>
+          <h3>{title}</h3>
+          <h4>{subtitle}</h4>
         </div>
         <img src="assets/certificate.svg" alt="certificate" />
       </div>

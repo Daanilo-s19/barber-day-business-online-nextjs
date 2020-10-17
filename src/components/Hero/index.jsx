@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Header } from './styles'
 
 export default function Hero(props) {
-  const { title, textButton, activeButton, onChange } = props
+  const { title, textButton, urlLink, onChange } = props
   return (
     <>
       <Header data-aos="fade-up">
@@ -21,7 +21,7 @@ export default function Hero(props) {
                 <iframe
                   width="560"
                   height="315"
-                  src="https://www.youtube.com/embed/6raPNl-mfaI"
+                  src={urlLink}
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
