@@ -4,8 +4,8 @@ export default function CertificateSection(props) {
   return (
     <Container>
       <div className="texture-left">
-        <img src="assets/background/texture-top-left.svg" alt="texture" />
-        <img src="assets/background/texture-bottom-left.svg" alt="texture" />
+        <img src="assets/texture-top-left.svg" alt="texture" />
+        <img src="assets/texture-bottom-left.svg" alt="texture" />
       </div>
       <div className="content-center">
         <div className="content-center-header max-header" data-aos="fade-up">
@@ -18,8 +18,8 @@ export default function CertificateSection(props) {
         <img src="assets/certificate.svg" alt="certificate" />
       </div>
       <div className="texture-right">
-        <img src="assets/background/texture-top-right.svg" alt="texture" />
-        <img src="assets/background/texture-bottom-right.svg" alt="texture" />
+        <img src="assets/texture-top-right.svg" alt="texture" />
+        <img src="assets/texture-bottom-right.svg" alt="texture" />
       </div>
     </Container>
   )

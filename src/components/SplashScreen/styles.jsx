@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 export const Content = styled.div`
   width: 100%;
   height: 100vh;
@@ -11,7 +11,7 @@ export const Content = styled.div`
   #logo-background {
     width: 395px;
     height: 526px;
-    background: url("assets/background/logo.svg");
+    background: url('assets/logobg.svg');
     display: grid;
     grid-template-rows: 237px 40px;
     align-content: center;
@@ -79,4 +79,4 @@ export const Content = styled.div`
       opacity: 1;
     }
   }
-`;
+`

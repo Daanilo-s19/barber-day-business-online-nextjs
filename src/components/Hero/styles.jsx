@@ -57,12 +57,12 @@ export const Header = styled.header`
   .polygon-left {
     width: auto;
     height: auto;
-    background: url('assets/background/Esquerda-hero.svg') 0% 100% no-repeat;
+    background: url('assets/Esquerda-hero.svg') 0% 100% no-repeat;
   }
   .polygon-right {
     width: auto;
     height: auto;
-    background: url('assets/background/Direita- Hero.svg') 100% 100% no-repeat;
+    background: url('assets/Direita- Hero.svg') 100% 100% no-repeat;
   }
 
   .arrow-down {

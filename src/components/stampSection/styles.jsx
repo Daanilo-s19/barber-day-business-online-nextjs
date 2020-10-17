@@ -20,13 +20,13 @@ export const Container = styled.section`
   .filter-gold {
     height: 100%;
     width: 100%;
-    background: url('assets/background/stamp.svg') center no-repeat;
+    background: url('assets/stampbg.svg') center no-repeat;
     display: flex;
     justify-content: center;
 
     /* width: 100vw;
     height: 100vh;
-    background: url('assets/background/stamp.svg') 50% 50% no-repeat; */
+    background: url('assets/stampbg.svg') 50% 50% no-repeat; */
   }
   #stamp {
     padding: 64px;

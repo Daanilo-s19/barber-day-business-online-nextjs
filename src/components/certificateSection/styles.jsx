@@ -6,7 +6,7 @@ export const Container = styled.section`
   margin: 0 auto;
   padding-top: 192px;
   grid-template-columns: repeat(3, 1fr);
-  background: url('assets/background/bonus.svg') center 35% no-repeat;
+  background: url('assets/bonusbg.svg') center 35% no-repeat;
   /* animation: opacity 3s infinite alternate; */
 
   .max-header {

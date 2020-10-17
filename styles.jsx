@@ -88,7 +88,7 @@ export const Container = styled.div`
   height: 100vh;
 
   /* background: red; */
-  background: url('assets/background/Seu-Elias.svg');
+  background: url('assets/Seu-Elias.svg');
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
