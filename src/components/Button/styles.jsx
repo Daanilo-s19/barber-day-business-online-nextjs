@@ -34,7 +34,8 @@ export const ButtonDefault = styled.button`
   }
 
   @media ${({ theme }) => theme.breakpoint.mobileL} {
-    width: 312px;
+    max-width: 425px;
+    /* width: 312px; */
   }
   @media ${({ theme }) => theme.breakpoint.mobileS} {
     width: 300px;

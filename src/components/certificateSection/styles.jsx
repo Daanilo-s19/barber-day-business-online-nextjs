@@ -54,4 +54,54 @@ export const Container = styled.section`
       opacity: 1;
     }
   }
+  @media ${({ theme }) => theme.breakpoint.tablet} {
+    max-width: 768px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 0;
+
+    .texture-left {
+      display: none;
+    }
+    .texture-right {
+      display: none;
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileL} {
+    max-width: 425px;
+    padding-top: 89px;
+
+    height: auto;
+    background: none;
+    /* background-size: 100% 100%;
+    background-position: top;
+    grid-template-columns: 1fr; */
+    .max-header {
+      width: 325px;
+    }
+
+    .content-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4 {
+        margin-bottom: 59px;
+        font-size: 18px;
+      }
+      img {
+        width: 240px;
+        height: 212px;
+      }
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileS} {
+    width: 320px;
+
+    .max-header {
+      width: 300px;
+    }
+  }
 `

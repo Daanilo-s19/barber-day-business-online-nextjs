@@ -5,11 +5,7 @@ export default function PriceSection(props) {
   return (
     <Container>
       <div className="content-center-header max-header" data-aos="fade-up">
-        <h3>Certificado</h3>
-        <h4>
-          Receba seu certificado com código de autenticidade em PDF após 35 dias
-          de curso!
-        </h4>
+        <h4>Quanto custa o Barber Day Business Online?</h4>
       </div>
       <div className="content">
         <div className="descripiton">

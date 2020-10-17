@@ -142,4 +142,71 @@ export const Container = styled.section`
     color: #08374b;
     font-weight: bold;
   }
+
+  @media ${({ theme }) => theme.breakpoint.tablet} {
+    max-width: 768px;
+    .max-header {
+      max-width: 312px;
+      h4 {
+        margin: 96px 0 48px;
+      }
+    }
+    .descripiton {
+      max-width: 80%;
+      display: flex;
+      flex-direction: column;
+      border-radius: 40px;
+      z-index: 999;
+      height: 826px;
+
+      .item {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 12px;
+        span {
+          text-align: center;
+        }
+        b {
+          text-align: center;
+        }
+      }
+      .bonus {
+      }
+    }
+    .price {
+      margin-top: -40px;
+      padding-top: 40px;
+      max-width: 312px;
+      z-index: -99px;
+      border-radius: 20px;
+
+      button {
+        margin-top: 40px;
+        width: 312px;
+      }
+    }
+    .span {
+      max-width: 300px;
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileS} {
+    width: 320px;
+    .descripiton {
+      max-width: 100%;
+    }
+    .price {
+      max-width: 310px;
+      z-index: -99px;
+
+      button {
+        margin-top: 40px;
+        width: 300px;
+      }
+    }
+
+    .max-header {
+      width: 300px;
+    }
+  }
 `

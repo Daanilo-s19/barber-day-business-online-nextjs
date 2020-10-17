@@ -48,4 +48,78 @@ export const Container = styled.section`
     align-self: end;
     justify-self: end;
   }
+
+  @media ${({ theme }) => theme.breakpoint.tablet} {
+    max-width: 768px;
+    column-gap: 54px;
+
+    label {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileL} {
+    height: 816px;
+    background: linear-gradient(40.72deg, #2a9e98 14.56%, #7ee1cb 85.55%);
+    border-radius: 300px 300px 20px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    row-gap: 0;
+    column-gap: 0;
+    padding: 0;
+    margin: 115px auto 0;
+    /* height: auto;
+    margin: 108px auto 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     */
+
+    #player {
+      grid-row: 1/2;
+      grid-column: 1/3;
+      justify-self: center;
+      width: 281px;
+      height: 365px;
+    }
+    .content {
+      grid-row: 2/3;
+      grid-column: 1/3;
+
+      grid-row: 2/3;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      img {
+        margin: 0;
+      }
+      label {
+        margin-bottom: 12px;
+        text-align: center;
+        width: 272px;
+      }
+      p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 28px;
+        padding: 0 24px;
+      }
+    }
+    button {
+      width: 100%;
+      grid-row: 3/4;
+      grid-column: 1/3;
+      justify-self: center;
+      margin-bottom: -20px;
+    }
+  } ;
 `

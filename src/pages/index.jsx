@@ -71,7 +71,7 @@ export default function Home() {
             labelButton="Você quer ser ter uma Barbearia organizada e próspera?"
             textButton="Alavancar minha barbearia agora"
           />
-          {/* <AwardsSection
+          <AwardsSection
             title="Conheça os módulos"
             subtitle={
               <span>
@@ -124,10 +124,10 @@ export default function Home() {
               },
             ]}
           />
-            <BonusSection />
+          <BonusSection />
           <CertificateSection />
           <PriceSection />
-          <StampSection />
+          {/*<StampSection />
           <CasesSection
             pageCases={false}
             title="APRENDA COM QUEM Foi lá e fez"
@@ -251,8 +251,8 @@ export default function Home() {
                   'Ao adquirir o BARBER DAY BUSINESS ONLINE você terá acesso a plataforma por 12 meses. Durante esse tempo você pode ver todo o conteúdo do curso quantas vezes desejar.',
               },
             ]}
-          /> */}
-
+          />{' '}
+          */}
           <Footer />
         </div>
       </Container>
