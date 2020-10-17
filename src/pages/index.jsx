@@ -18,6 +18,7 @@ import pt from '../locales/pt.json'
 import Button from '../components/Button'
 import FaqSection from '../components/faqSection'
 import Footer from '../components/footer'
+
 export default function Home() {
   const i18n = useI18n()
   const [loading, setloading] = useState(true)
@@ -70,7 +71,7 @@ export default function Home() {
             labelButton="Você quer ser ter uma Barbearia organizada e próspera?"
             textButton="Alavancar minha barbearia agora"
           />
-          <AwardsSection
+          {/* <AwardsSection
             title="Conheça os módulos"
             subtitle={
               <span>
@@ -123,7 +124,7 @@ export default function Home() {
               },
             ]}
           />
-          {/*   <BonusSection />
+            <BonusSection />
           <CertificateSection />
           <PriceSection />
           <StampSection />
@@ -250,10 +251,9 @@ export default function Home() {
                   'Ao adquirir o BARBER DAY BUSINESS ONLINE você terá acesso a plataforma por 12 meses. Durante esse tempo você pode ver todo o conteúdo do curso quantas vezes desejar.',
               },
             ]}
-          />
+          /> */}
 
           <Footer />
-          */}
         </div>
       </Container>
     </>
