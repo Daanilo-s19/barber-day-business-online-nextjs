@@ -58,11 +58,13 @@ export const Header = styled.header`
     width: auto;
     height: auto;
     background: url('assets/Esquerda-hero.svg') 0% 100% no-repeat;
+    animation: opacityContainer 1500ms linear;
   }
   .polygon-right {
     width: auto;
     height: auto;
     background: url('assets/Direita- Hero.svg') 100% 100% no-repeat;
+    animation: opacityContainer 1500ms linear;
   }
 
   .arrow-down {

@@ -19,7 +19,7 @@ export default function MethodSection(props) {
           {item &&
             item.map((element, index) => {
               return (
-                <div key={index}>
+                <div key={index} data-aos="zoom-in-up">
                   <Item>
                     <div className="content-header">
                       <div className="box-icon">

@@ -26,11 +26,22 @@ export const ButtonDefault = styled.button`
 
   &:hover {
     cursor: pointer;
+    animation: goButton 750ms infinite alternate;
+
     background: ${(props) =>
       props.backgroundHover ? props.backgroundHover : 'none'};
     border: ${(props) => (props.background ? props.background : '0px solid')};
     box-shadow: ${(props) =>
       props.shadow && '0px 10px 25px rgba(42, 158, 152, 0.32)'};
+  }
+
+  @keyframes goButton {
+    from {
+      transform: translateX(0px);
+    }
+    to {
+      transform: translateX(15px);
+    }
   }
 
   @media ${({ theme }) => theme.breakpoint.mobileL} {

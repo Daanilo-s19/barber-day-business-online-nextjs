@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+
 import { ButtonDefault } from './styles'
 
 export default function Button(props) {
@@ -12,16 +13,18 @@ export default function Button(props) {
     image,
   } = props
   return (
-    <ButtonDefault
-      width={width}
-      background={bgColor}
-      backgroundHover={bgHover}
-      shadow={shadow}
-      color={childrenColor}
-    >
-      {children}
-      {image ? <img src={image} alt="alavancar" id="image" /> : null}
-    </ButtonDefault>
+    <a href="https://www.google.com/" target="_blank">
+      <ButtonDefault
+        width={width}
+        background={bgColor}
+        backgroundHover={bgHover}
+        shadow={shadow}
+        color={childrenColor}
+      >
+        {children}
+        {image ? <img src={image} alt="alavancar" id="image" /> : null}
+      </ButtonDefault>
+    </a>
   )
 }
 

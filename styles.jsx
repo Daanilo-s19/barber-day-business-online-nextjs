@@ -181,6 +181,15 @@ export const Container = styled.div`
     }
   }
 
+  @keyframes go-back {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(20px);
+    }
+  }
+
   @media ${({ theme }) => theme.breakpoint.mobileL} {
     margin: 0;
 

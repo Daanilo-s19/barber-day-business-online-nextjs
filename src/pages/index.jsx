@@ -3,7 +3,6 @@ import Menu from '../components/Menu'
 import Hero from '../components/Hero'
 
 import WhatsSection from '../components/whatsSection'
-import AwardsSection from '../components/methodSection'
 import BonusSection from '../components/bonusSection'
 import CertificateSection from '../components/certificateSection'
 import PriceSection from '../components/priceSection'
@@ -18,6 +17,7 @@ import pt from '../locales/pt.json'
 import Button from '../components/Button'
 import FaqSection from '../components/faqSection'
 import Footer from '../components/footer'
+import MethodSection from '../components/methodSection'
 
 export default function Home() {
   const i18n = useI18n()
@@ -71,7 +71,7 @@ export default function Home() {
             labelButton="Você quer ser ter uma Barbearia organizada e próspera?"
             textButton="Alavancar minha barbearia agora"
           />
-          <AwardsSection
+          <MethodSection
             title="Conheça os módulos"
             subtitle={
               <span>

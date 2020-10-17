@@ -38,14 +38,6 @@ export const Container = styled.section`
     }
   }
 
-  @keyframes go-back {
-    from {
-      transform: translateY(0px);
-    }
-    to {
-      transform: translateY(20px);
-    }
-  }
   @keyframes opacity {
     from {
       opacity: 0;
