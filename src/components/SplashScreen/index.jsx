@@ -1,11 +1,10 @@
-import { useEffect } from "react";
-import PropTypes from "prop-types";
-import { Content } from "./styles";
-import Router from "next/router";
-import SocialMedia from "../SocialMedia";
+import { useEffect } from 'react'
+import PropTypes from 'prop-types'
+import { Content } from './styles'
+import Router from 'next/router'
 
 export default function SplashScreen(props) {
-  const { description } = props;
+  const { description } = props
   return (
     <>
       <Content>
@@ -22,8 +21,8 @@ export default function SplashScreen(props) {
         </div>
       </Content>
     </>
-  );
+  )
 }
 SplashScreen.propTypes = {
   description: PropTypes.string.isRequired,
-};
+}

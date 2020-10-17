@@ -1,8 +1,8 @@
-import PropTypes from "prop-types";
-import { Item, Section } from "./styles";
+import PropTypes from 'prop-types'
+import { Item, Section } from './styles'
 
 export default function MethodSection(props) {
-  const { title, subtitle, description, item } = props;
+  const { title, subtitle, item } = props
   return (
     <Section data-aos="fade-up">
       <div className="content-header">
@@ -25,7 +25,7 @@ export default function MethodSection(props) {
                       <div className="box-icon">
                         <img src={element.url} alt={element.url} />
                       </div>
-                      <div classNames="title-header">
+                      <div className="title-header">
                         <p id="module">{element.module}</p>
                         <p id="nameModule">{element.nameModule}</p>
                       </div>
@@ -33,16 +33,14 @@ export default function MethodSection(props) {
                     <span>{element.description}</span>
                   </Item>
                 </div>
-              );
+              )
             })}
         </div>
       </div>
     </Section>
-  );
+  )
 }
 MethodSection.propTypes = {
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
   item: PropTypes.any.isRequired,
-};
+}

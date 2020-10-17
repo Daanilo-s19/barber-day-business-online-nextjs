@@ -179,8 +179,7 @@ export const Player = styled.section`
 //   width: 100%;
 //   margin: 72px 0 132px;
 //   padding: 0 123px;
-//   background: url('assets/filter_space.svg');
-//   cursor: pointer;
+//  //   cursor: pointer;
 //   display: grid;
 //   grid-template-columns: repeat(2, 1fr);
 //   gap: 48px;

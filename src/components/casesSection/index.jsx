@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import Link from 'next/link'
 import { Cases, Container, Player } from './styles'
-import AboutMore from '../AboutMore'
 
 export default function CasesSection(props) {
   const { title, subtitle, cases } = props

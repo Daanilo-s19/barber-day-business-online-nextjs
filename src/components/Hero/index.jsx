@@ -53,7 +53,6 @@ export default function Hero(props) {
 
 Hero.propTypes = {
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
   textButton: PropTypes.string.isRequired,
   activeButton: PropTypes.bool.isRequired,
   onChange: PropTypes.func.isRequired,

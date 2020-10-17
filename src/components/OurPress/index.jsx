@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types'
 import SectionDefault from '../SectionDefault'
 import { ItemPress } from './styles'
-import AboutMore from '../AboutMore'
 import { useState } from 'react'
 import Button from '../Button'
 
