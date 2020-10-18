@@ -48,7 +48,8 @@ export const Content = styled.section`
   .image-phone {
     width: 554.52px;
     height: 334.62px;
-    background: url('assets/PixelBookGo.svg') no-repeat;
+
+    /* background: url('assets/PixelBookGo.svg') no-repeat; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -65,7 +66,8 @@ export const Content = styled.section`
       max-width: 425px;
       height: 176px;
 
-      background: url('assets/PixelBookGo-small.svg') center no-repeat;
+      /* TODO: IMAGEM COMENTADA */
+      /* background: url('assets/PixelBookGo-small.svg') center no-repeat; */
       display: flex;
       justify-content: center;
       align-items: flex-end;

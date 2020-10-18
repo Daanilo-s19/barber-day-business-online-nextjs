@@ -5,12 +5,13 @@ export default function BonusSection(props) {
   const { title, paragraph, lastParagraph, textButton } = props
   return (
     <Container>
-      <img
-        src=" assets/BRUNO-VANENCK.svg"
+      {/* TODO:IMAGEM COMENTADA */}
+      {/* <img
+        src="assets/BRUNO-VANENCK.svg"
         id="player"
         data-aos={screen.width <= 425 ? 'fade-down' : 'fade-right'}
         data-aos-delay="250"
-      />
+      /> */}
       <div
         className="content"
         data-aos={screen.width <= 425 ? 'fade-down' : 'fade-left'}

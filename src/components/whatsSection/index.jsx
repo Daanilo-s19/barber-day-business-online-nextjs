@@ -42,7 +42,9 @@ export default function WhatsSection(props) {
               )}
             </div>
             <div className="image-phone" data-aos="flip-right">
-              <img src="assets/Google-Pixel- 4-XL-Screen.svg" alt="phone" />
+              {/* TODO: IMAGEM COMENTADA */}
+
+              {/* <img src="assets/Google-Pixel- 4-XL-Screen.svg" alt="phone" /> */}
             </div>
             {screen.width < 768 && (
               <Button
