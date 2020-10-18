@@ -1,27 +1,27 @@
-import PropTypes from "prop-types";
-import SectionDefault from "../SectionDefault";
-import { ItemPress, Content } from "./styles";
-import { useState, useEffect } from "react";
-import Button from "../Button";
-import CarouselController from "../CarouselController";
+import PropTypes from 'prop-types'
+import SectionDefault from '../SectionDefault'
+import { ItemPress, Content } from './styles'
+import { useState, useEffect } from 'react'
+import Button from '../Button'
+import CarouselController from '../CarouselController'
 
 export default function PressSection(props) {
-  const { title, subtitle, item } = props;
-  const [controller, setController] = useState(1);
+  const { title, subtitle, item } = props
+  const [controller, setController] = useState(0)
   useEffect(() => {
-    blogMobile();
-  }, []);
+    blogMobile()
+  }, [])
 
   const blogMobile = () => {
-    let arrays = [];
+    let arrays = []
     item &&
       item.forEach((element) => {
         element.forEach((item) => {
-          arrays.push(item);
-        });
-      });
-    return arrays;
-  };
+          arrays.push(item)
+        })
+      })
+    return arrays
+  }
   return (
     <>
       <SectionDefault title={title} subtitle={subtitle}>
@@ -49,7 +49,7 @@ export default function PressSection(props) {
                   </ItemPress>
                 </div>
               ))
-            );
+            )
           })}
 
         <div className="content-mobile">
@@ -74,7 +74,7 @@ export default function PressSection(props) {
                     </div>
                   </ItemPress>
                 )
-              );
+              )
             })}
         </div>
       </SectionDefault>
@@ -114,11 +114,11 @@ export default function PressSection(props) {
         </div>
       </Content>
     </>
-  );
+  )
 }
 PressSection.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string.isRequired,
   item: PropTypes.any.isRequired,
   more: PropTypes.string,
-};
+}

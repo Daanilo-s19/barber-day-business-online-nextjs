@@ -21,7 +21,7 @@ export default function CertificateSection(props) {
           <h3>{title}</h3>
           <h4>{subtitle}</h4>
         </div>
-        <img src="assets/certificate.webp" alt="certificate" />
+        <img src="assets/certificate.png" alt="certificate" />
       </div>
       <div className="texture-right">
         <img

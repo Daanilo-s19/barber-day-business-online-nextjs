@@ -23,9 +23,12 @@ export default class MyApp extends App {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           ></meta>
-          <meta name="description" content="Description"></meta>
+          <meta
+            name="description"
+            content="Veja como ter uma Barbearia Lucrativa e organizada. Faça sua marca dominar o mercado e conquiste o sucesso financeiro que você sempre sonhou através do seu negócio."
+          ></meta>
           <meta name="keywords" content="Keywords" />
-          <title>Barber Day Business </title>
+          <title>Barber Day Business Online</title>
           <link
             href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;1,400;1,500&display=swap"
             rel="stylesheet"

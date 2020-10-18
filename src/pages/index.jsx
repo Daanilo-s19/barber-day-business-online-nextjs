@@ -216,8 +216,8 @@ export default function Home() {
               ],
               [
                 {
-                  title: 'NOME*',
-                  description: 'Lugar*',
+                  title: 'Dilson',
+                  description: 'Erechim/RS',
                   link: 'https://www.youtube.com/embed/NVC8rbYi4mw',
                 },
 
