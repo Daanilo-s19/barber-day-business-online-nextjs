@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Container = styled.section`
   max-width: 1366px;
@@ -89,8 +89,9 @@ export const Container = styled.section`
     }
   }
   .span {
+    width: 70%;
     font-family: Barlow;
-    margin-top: 40px;
+    margin-top: 24px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
@@ -215,4 +216,4 @@ export const Container = styled.section`
       width: 300px;
     }
   }
-`
+`;

@@ -1,5 +1,5 @@
-import Button from '../Button'
-import { Container } from './styles'
+import Button from "../Button";
+import { Container } from "./styles";
 
 export default function PriceSection(props) {
   return (
@@ -14,42 +14,42 @@ export default function PriceSection(props) {
         <div className="descripiton">
           <div className="item">
             <span>
-              Consultoria com <b>Contador especialista</b> em{' '}
+              Consultoria com <b>Contador especialista</b> em{" "}
               <b>Contabilidade de Barbearia</b>
             </span>
             <b className="decoration">R$ 1.500,00</b>
           </div>
           <div className="item item-zebra">
             <span>
-              Consultoria com <b>Advogado especialista</b> na parte{' '}
+              Consultoria com <b>Advogado especialista</b> na parte{" "}
               <b>Jurídica de Barbearia</b>
             </span>
             <b className="decoration">R$ 1.500,00</b>
           </div>
           <div className="item">
             <span>
-              Consultoria com <b>Publicitário especialista</b> em{' '}
+              Consultoria com <b>Publicitário especialista</b> em{" "}
               <b>Marketing de Barbearia</b>
             </span>
             <b className="decoration">R$ 1.500,00</b>
           </div>
           <div className="item item-zebra">
             <span>
-              Consultoria com <b>Gestor especialista</b> em{' '}
+              Consultoria com <b>Gestor especialista</b> em{" "}
               <b>Administração de Barbearia</b>
             </span>
             <b className="decoration">R$ 1.500,00</b>
           </div>
           <div className="item">
             <span>
-              Consultoria com <b>Barbeiro lider</b> de equipe e{' '}
+              Consultoria com <b>Barbeiro lider</b> de equipe e{" "}
               <b>Educador reconhecido</b>
             </span>
             <b className="decoration">R$ 1.500,00</b>
           </div>
           <div className="item item-zebra">
             <span>
-              Consultoria de empreendedorismo com <b>Seu Elias</b>, fundador da{' '}
+              Consultoria de empreendedorismo com <b>Seu Elias</b>, fundador da{" "}
               <b>barbearia Seu Elias</b>
             </span>
             <b className="decoration">R$ 1.500,00</b>
@@ -58,7 +58,7 @@ export default function PriceSection(props) {
             <span>
               <b>BÔNUS:</b> Consultoria de vendas e gestão (para barbearias)
               <br />
-              com <b>Bruno Vanenck,</b> fundador da{' '}
+              com <b>Bruno Vanenck,</b> fundador da{" "}
               <b>barbearia Corleone - R$5.000,00</b>
             </span>
           </div>
@@ -72,6 +72,12 @@ export default function PriceSection(props) {
           <label>
             12x de <b>143,00</b>
           </label>
+          <span className="span">
+            Para ter acesso a todo esse conteúdo,{" "}
+            <b>com os maiores especialistas do Brasil,</b>
+            <br /> que você não encontra em nenhum outro lugar.
+          </span>
+
           <Button
             width="332px"
             image="assets/arrow_right.svg"
@@ -84,12 +90,7 @@ export default function PriceSection(props) {
             Alavancar minha barbearia agora
           </Button>
         </div>
-        <span className="span">
-          Para ter acesso a todo esse conteúdo,{' '}
-          <b>com os maiores especialistas do Brasil,</b>
-          <br /> que você não encontra em nenhum outro lugar.
-        </span>
       </div>
     </Container>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Section = styled.section`
   display: grid;
@@ -63,6 +63,18 @@ export const Section = styled.section`
     .content-item {
       grid-template-columns: 1fr;
     }
+    .content-web {
+      display: none;
+    }
+    .content-mobile {
+      display: block;
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileL} {
+    .content-mobile {
+      display: block;
+    }
   }
   @media ${({ theme }) => theme.breakpoint.mobileS} {
     grid-template-columns: 0 320px 0;
@@ -70,4 +82,4 @@ export const Section = styled.section`
       grid-template-columns: 320px;
     }
   }
-`
+`;
