@@ -17,7 +17,7 @@ export default class MyApp extends App {
     return (
       <ThemeProvider theme={theme}>
         <Head>
-          <title>Barber day Bussiness</title>
+          <title>Barber day Business</title>
           <link rel="icon" href="/favicon_logo.svg" />
           <link
             href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;1,400;1,500&display=swap"
@@ -28,7 +28,7 @@ export default class MyApp extends App {
             rel="stylesheet"
           ></link>
           {/* TODO: ADICIONAR DESCRIÇÃO DO SITE */}
-          <meta name="description" content="Barber day Bussness."></meta>
+          <meta name="description" content="Barber day Busness."></meta>
           <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
