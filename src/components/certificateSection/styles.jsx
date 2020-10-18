@@ -28,17 +28,40 @@ export const Container = styled.section`
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     justify-items: start;
+    img {
+      width: 75%;
+      animation: go-back 1500ms infinite alternate;
+      animation-delay: 400ms;
+
+      &:last-child {
+        animation-delay: 800ms;
+      }
+    }
   }
 
   .texture-right {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     justify-items: end;
+    img {
+      width: 75%;
+      animation: go-back 1500ms infinite alternate;
+      animation-delay: 1200ms;
+
+      &:last-child {
+        animation-delay: 1600ms;
+      }
+    }
   }
   .content-center {
     justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 286px;
     img {
-      /* animation: go-back 3s infinite alternate; */
+      animation: go-back 3s infinite alternate;
     }
   }
 
@@ -82,6 +105,8 @@ export const Container = styled.section`
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding-bottom: 0px;
+
       h4 {
         margin-bottom: 59px;
         font-size: 18px;
