@@ -6,7 +6,7 @@ export default function BonusSection(props) {
   return (
     <Container>
       <img
-        src="assets/BRUNO-VANENCK.svg"
+        src="assets/BRUNO-VANENCK.webp"
         id="player"
         data-aos={screen.width <= 425 ? 'fade-down' : 'fade-right'}
         data-aos-delay="252"

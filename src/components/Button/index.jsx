@@ -13,7 +13,7 @@ export default function Button(props) {
     image,
   } = props
   return (
-    <a href="https://www.google.com/" target="_blank">
+    <a href="https://choquedegestao.barberday.online/" target="_blank">
       <ButtonDefault
         width={width}
         background={bgColor}

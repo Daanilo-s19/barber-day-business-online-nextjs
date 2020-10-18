@@ -49,7 +49,7 @@ export const Content = styled.section`
     width: 554.52px;
     height: 334.62px;
 
-    background: url('assets/PixelBookGo.svg') no-repeat;
+    background: url('assets/PixelBookGo.webp') no-repeat;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -67,7 +67,7 @@ export const Content = styled.section`
       height: 176px;
 
       /*  */
-      background: url('assets/PixelBookGo-small.svg') center no-repeat;
+      background: url('assets/PixelBookGo-small.webp') center no-repeat;
       display: flex;
       justify-content: center;
       align-items: flex-end;
