@@ -21,9 +21,9 @@ export default function Hero(props) {
                 <iframe
                   width="560"
                   height="315"
-                  src={urlLink}
+                  src="https://www.youtube.com/embed/F7PxEy5IyV4"
                   frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 >
                   <div className="play" onClick={() => setPlay(true)}>

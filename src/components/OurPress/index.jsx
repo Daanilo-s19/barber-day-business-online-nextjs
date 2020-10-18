@@ -20,15 +20,11 @@ export default function PressSection(props) {
                   <iframe
                     width="352"
                     height="198"
-                    src="https://www.youtube.com/embed/6raPNl-mfaI"
+                    src="https://www.youtube.com/embed/F7PxEy5IyV4"
                     frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
-                  >
-                    <div className="play" onClick={() => setPlay(true)}>
-                      <img src="assets/method_play.svg" alt="method" />
-                    </div>
-                  </iframe>
+                  ></iframe>
                 </div>
                 <div className="content">
                   <label>{element.title}</label>
