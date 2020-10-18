@@ -15,6 +15,7 @@ export const Section = styled.section`
       grid-column: 2/3;
       max-width: 427px;
       h4 {
+        font-family: Barlow;
         font-weight: normal;
         font-size: 24px;
         line-height: 125%;
@@ -27,6 +28,7 @@ export const Section = styled.section`
       align-self: end;
       justify-self: end;
       span {
+        font-family: Barlow;
         font-size: 18px;
         line-height: 20px;
         opacity: 0.8;
@@ -103,6 +105,7 @@ export const Item = styled.div`
   border-radius: 12px;
   margin-bottom: 32px;
   padding: 33px 32px;
+  border: #343a40 1px solid;
 
   display: flex;
   flex-direction: column;
@@ -125,6 +128,7 @@ export const Item = styled.div`
       flex-direction: column;
     }
     #module {
+      font-family: Barlow;
       font-weight: 300;
       font-size: 14px;
       line-height: 17px;
@@ -141,6 +145,7 @@ export const Item = styled.div`
       -webkit-text-fill-color: transparent;
     }
     #nameModule {
+      font-family: Barlow;
       font-weight: 600;
       font-size: 18px;
       line-height: 20px;
@@ -148,11 +153,16 @@ export const Item = styled.div`
     }
   }
   span {
+    font-family: Barlow;
     font-size: 16px;
     line-height: 20px;
     opacity: 0.8;
   }
 
+  &:hover {
+    transition: 250ms;
+    border: #2a9e98 1px solid;
+  }
   @media ${({ theme }) => theme.breakpoint.mobileL} {
     /* .box-icon {
       margin: 0;

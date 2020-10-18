@@ -42,7 +42,9 @@ export default function Hero(props) {
               >
                 {textButton}
               </Button>
-              <div className="arrow-down"></div>
+              <div className="arrow-down">
+                <div className="final-arrow"></div>
+              </div>
             </div>
           </div>
         </div>

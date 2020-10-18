@@ -9,14 +9,14 @@ export const Container = styled.section`
   margin: 0 auto;
 
   .max-header {
-    width: 100%;
-    max-width: 544px;
+    max-width: 375px;
     display: flex;
     flex-direction: column;
     align-items: center;
     h4 {
+      font-family: Archivo;
       text-align: center;
-      margin-bottom: 100px;
+      margin-bottom: 64px;
     }
   }
 
@@ -54,7 +54,7 @@ export const Container = styled.section`
 
     .total {
       max-width: 279px;
-      margin: 0 auto 24px;
+      margin: -10px auto 24px;
       height: 62px;
       background: RGBA(42, 158, 152, 0.1);
       border-radius: 12px;
@@ -71,6 +71,7 @@ export const Container = styled.section`
     }
 
     .item {
+      font-family: Barlow;
       font-size: 14px;
       line-height: 17px;
       color: #5e6770;
@@ -84,10 +85,12 @@ export const Container = styled.section`
       background: #f8f9fa;
     }
     .decoration {
-      text-decoration: line-through red;
+      text-decoration: line-through #d63336;
     }
   }
   .span {
+    font-family: Barlow;
+    margin-top: 40px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
@@ -117,6 +120,7 @@ export const Container = styled.section`
       margin-bottom: -10px;
     }
     p {
+      font-family: Barlow;
       font-weight: 500;
       font-size: 16px;
       line-height: 22px;
@@ -125,6 +129,7 @@ export const Container = styled.section`
       margin: 40px 0 8px;
     }
     label {
+      font-family: Archivo;
       font-size: 24px;
       line-height: 26px;
       text-align: center;

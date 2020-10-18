@@ -43,7 +43,7 @@ export const Container = styled.section`
       margin: 0;
     }
   }
-  button {
+  a {
     grid-column: 2/3;
     align-self: end;
     justify-self: end;
@@ -103,23 +103,28 @@ export const Container = styled.section`
         margin: 0;
       }
       label {
+        font-family: Archivo;
         margin-bottom: 12px;
         text-align: center;
         width: 272px;
       }
       p {
+        font-family: Barlow;
         font-size: 18px;
         text-align: center;
         margin-bottom: 28px;
         padding: 0 24px;
       }
     }
-    button {
+    a {
       width: 100%;
       grid-row: 3/4;
       grid-column: 1/3;
       justify-self: center;
       margin-bottom: -20px;
+    }
+    button {
+      width: 100%;
     }
   } ;
 `

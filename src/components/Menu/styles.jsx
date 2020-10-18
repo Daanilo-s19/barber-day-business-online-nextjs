@@ -37,6 +37,7 @@ export const Navbar = styled.nav`
     align-items: center;
 
     label {
+      font-family: Barlow;
       margin-bottom: 20px;
       margin-left: -20px;
       font-weight: 500;
@@ -63,6 +64,7 @@ export const Navbar = styled.nav`
       align-items: center;
       justify-content: center;
       h4 {
+        font-family: Archivo;
         font-weight: 600;
         font-size: 24px;
         line-height: 26px;
@@ -71,6 +73,8 @@ export const Navbar = styled.nav`
         justify-content: center;
       }
       span {
+        font-family: Barlow;
+        margin-top: 4px;
         font-size: 12px;
         line-height: 14px;
         display: flex;

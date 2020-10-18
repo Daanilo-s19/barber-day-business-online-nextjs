@@ -5,6 +5,7 @@ export const Header = styled.header`
   margin-top: 40px;
 
   h1 {
+    font-family: Archivo;
     width: 100%;
     max-width: 296px;
     text-align: center;
@@ -19,7 +20,7 @@ export const Header = styled.header`
     margin-top: -3px;
     margin-bottom: 34px;
     display: grid;
-    grid-template-columns: minmax(auto, 36px) minmax(auto, 16px) minmax(
+    grid-template-columns: minmax(auto, 26px) minmax(auto, 24px) minmax(
         auto,
         238px
       );
@@ -68,47 +69,48 @@ export const Header = styled.header`
   }
 
   .arrow-down {
-    width: 2px;
-    height: 44px;
-    margin-top: 24px;
+    animation: opacityArrow 2000ms infinite alternate;
+    animation-delay: 100ms;
 
-    background: linear-gradient(180deg, rgba(42, 158, 152, 0) 0%, #2a9e98 100%);
-    border-radius: 100px;
+    .final-arrow {
+      width: 2px;
+      height: 44px;
+      margin-top: 24px;
+
+      background: linear-gradient(
+        180deg,
+        rgba(42, 158, 152, 0) 0%,
+        #2a9e98 100%
+      );
+      border-radius: 100px;
+      animation: transformArrow 2000ms infinite alternate;
+    }
   }
 
-  /* .play {
-    cursor: pointer;
-    position: relative;
-    width: 100%;
-    max-width: 96px;
-    height: 96px;
-    box-shadow: 0px 5px 60px rgba(32, 44, 61, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    &::before {
-      content: "";
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      background: linear-gradient(40.72deg, #552ee5 14.56%, #ee5a59 85.55%);
-      animation: spinoff 10s linear infinite;
-      border-radius: 50%;
-      z-index: -1;
+  @keyframes opacityArrow {
+    to {
+      opacity: 0.2;
     }
-
-    &:hover {
-      background: linear-gradient(40.72deg, #552ee5 14.56%, #ee5a59 85.55%);
-      max-width: 100px;
-      height: 100px;
-      border-radius: 50%;
+    from {
+      opacity: 1;
     }
-  } */
+  }
+  @keyframes transformArrow {
+    to {
+      transform: translateY(0px);
+    }
+    from {
+      transform: translateY(15px);
+    }
+  }
 
   @media ${({ theme }) => theme.breakpoint.mobileL} {
+    .custom-bottom {
+      grid-template-columns: minmax(auto, 40px) minmax(auto, 26px) minmax(
+          auto,
+          228px
+        );
+    }
     .dash {
       width: 340px;
       height: 191px;

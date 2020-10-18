@@ -68,7 +68,7 @@ body {
   height: 100%;
   margin: 0;
   background: ${({ theme }) => theme.background.primary};
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Archivo', 'Barlow', sans-serif;
   /* font-family: 'Hind', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -123,10 +123,11 @@ export const Container = styled.div`
     }
   }
   h3 {
+    font-family: Barlow;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
+    text-transform: uppercase;
     display: flex;
     align-items: center;
     text-align: center;
@@ -140,6 +141,7 @@ export const Container = styled.div`
     -webkit-text-fill-color: transparent;
   }
   h4 {
+    font-family: Archivo;
     width: 100%;
     font-weight: bold;
     font-size: 24px;

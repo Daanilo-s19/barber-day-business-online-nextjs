@@ -231,7 +231,14 @@ export default function Home() {
             ]}
           />
           {screen.width >= 768 && (
-            <div className="header-center-default" style={{ height: '96px' }}>
+            <div
+              className="header-center-default"
+              style={{
+                height: '0px',
+                marginTop: '-100px',
+                marginBottom: '148px',
+              }}
+            >
               <Button
                 width="332px"
                 image="assets/arrow_right.svg"

@@ -5,7 +5,10 @@ export default function PriceSection(props) {
   return (
     <Container>
       <div className="content-center-header max-header" data-aos="fade-up">
-        <h4>Quanto custa o Barber Day Business Online?</h4>
+        <h4>
+          Quanto custa o<br />
+          Barber Day Business Online?
+        </h4>
       </div>
       <div className="content" data-aos="fade-up">
         <div className="descripiton">

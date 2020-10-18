@@ -10,13 +10,17 @@ export const Container = styled.section`
   /* animation: opacity 3s infinite alternate; */
 
   .max-header {
-    width: 100%;
-    max-width: 544px;
+    width: 525px;
     display: flex;
     flex-direction: column;
     align-items: center;
     h4 {
+      font-family: Archivo;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
       text-align: center;
+      margin-bottom: 4px;
       margin-bottom: 100px;
     }
   }

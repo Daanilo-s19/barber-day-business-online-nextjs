@@ -23,6 +23,10 @@ export default class MyApp extends App {
             href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;1,400;1,500&display=swap"
             rel="stylesheet"
           ></link>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,300&display=swap"
+            rel="stylesheet"
+          ></link>
           {/* TODO: ADICIONAR DESCRIÇÃO DO SITE */}
           <meta name="description" content="Barber day Bussness."></meta>
           <meta

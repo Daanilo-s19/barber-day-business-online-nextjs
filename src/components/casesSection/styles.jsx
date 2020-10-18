@@ -14,12 +14,14 @@ export const Container = styled.section`
     margin-bottom: 72px;
 
     h3 {
+      font-family: Barlow;
       font-weight: 500;
       font-size: 18px;
       line-height: 22px;
       margin-bottom: 8px;
     }
     h4 {
+      font-family: Archivo;
       font-weight: bold;
       font-size: 24px;
       line-height: 125.1%;
@@ -87,7 +89,7 @@ export const Player = styled.section`
       line-height: 23px;
       color: #ffffff;
       opacity: 0.8;
-      text-align: justify;
+      /* text-align: justify; */
     }
   }
   @media ${({ theme }) => theme.breakpoint.tablet} {

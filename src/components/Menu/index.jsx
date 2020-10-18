@@ -20,25 +20,41 @@ export default function Menu(props) {
                 <div className="countdown">
                   <div>
                     <h4>
-                      <Timer.Days />
+                      <Timer.Days
+                        formatValue={(value) =>
+                          `${value < 10 ? `0${value}` : value}`
+                        }
+                      />
                     </h4>
                     <span>Dias</span>
                   </div>
                   <div>
                     <h4>
-                      <Timer.Hours />
+                      <Timer.Hours
+                        formatValue={(value) =>
+                          `${value < 10 ? `0${value}` : value}`
+                        }
+                      />
                     </h4>
                     <span>Horas</span>
                   </div>
                   <div>
                     <h4>
-                      <Timer.Minutes />
+                      <Timer.Minutes
+                        formatValue={(value) =>
+                          `${value < 10 ? `0${value}` : value}`
+                        }
+                      />
                     </h4>
                     <span>Minutos</span>
                   </div>
                   <div>
                     <h4>
-                      <Timer.Seconds />
+                      <Timer.Seconds
+                        formatValue={(value) =>
+                          `${value < 10 ? `0${value}` : value}`
+                        }
+                      />
                     </h4>
                     <span>segundos</span>
                   </div>

@@ -9,12 +9,14 @@ export const ItemPress = styled.div`
     flex-direction: column;
     align-items: center;
     label {
+      font-family: Archivo;
       font-weight: bold;
       font-size: 18px;
       line-height: 125.1%;
       margin: 24px 0 4px;
     }
     p {
+      font-family: Archivo;
       font-size: 16px;
       line-height: 125.1%;
       text-align: center;
