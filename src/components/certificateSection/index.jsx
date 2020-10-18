@@ -13,8 +13,7 @@ export default function CertificateSection(props) {
           <h3>{title}</h3>
           <h4>{subtitle}</h4>
         </div>
-        {/* TODO: IMAGEM COMENTADA */}
-        {/* <img src="assets/certificate.svg" alt="certificate" /> */}
+        <img src="assets/certificate.svg" alt="certificate" />
       </div>
       <div className="texture-right">
         <img src="assets/texture-top-right.svg" alt="texture" />
