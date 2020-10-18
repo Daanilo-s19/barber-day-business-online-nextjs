@@ -10,19 +10,14 @@ import StampSection from '../components/stampSection'
 import CasesSection from '../components/casesSection'
 import PressSection from '../components/OurPress'
 import SplashScreen from '../components/SplashScreen'
-import useI18n from '../hooks/use-i18n'
 import { Container, Content } from '../../styles'
-import en from '../locales/en.json'
-import pt from '../locales/pt.json'
 import Button from '../components/Button'
 import FaqSection from '../components/faqSection'
 import Footer from '../components/footer'
 import MethodSection from '../components/methodSection'
 
 export default function Home() {
-  const i18n = useI18n()
   const [loading, setloading] = useState(true)
-  const [form, setForm] = useState(false)
 
   useEffect(() => {
     setTimeout(() => {
@@ -30,11 +25,6 @@ export default function Home() {
     }, 3000)
   }, [])
 
-  useEffect(() => {
-    if (navigator.language) {
-      i18n.locale('', navigator.language === 'pt-BR' ? pt : en)
-    } else i18n.locale('', en)
-  }, [])
   return loading ? (
     <SplashScreen description="carregando" />
   ) : (

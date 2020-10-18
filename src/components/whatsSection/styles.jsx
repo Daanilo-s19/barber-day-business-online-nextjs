@@ -83,12 +83,14 @@ export const Content = styled.section`
     }
   }
   @media ${({ theme }) => theme.breakpoint.mobileL} {
+    padding-top: 84px;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: 1fr;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 99px;
     button {
       grid-column: 2/3;
       grid-row: 3/4;

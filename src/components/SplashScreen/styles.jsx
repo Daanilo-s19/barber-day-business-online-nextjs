@@ -60,8 +60,7 @@ export const Content = styled.div`
       animation-direction: alternate;
     }
   }
-  @media ${({ theme }) => theme.breakpoint.mobileL} {
-  }
+
   @keyframes opacityAnimation {
     from {
       opacity: 0;
@@ -77,6 +76,14 @@ export const Content = styled.div`
     }
     to {
       opacity: 1;
+    }
+  }
+
+  @media ${({ theme }) => theme.breakpoint.mobileM} {
+    width: 375px;
+    #logo-background {
+      /* width: 80%;
+      height: 526px; */
     }
   }
 `

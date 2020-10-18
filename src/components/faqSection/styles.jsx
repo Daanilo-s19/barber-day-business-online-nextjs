@@ -103,4 +103,18 @@ export const Container = styled.section`
       }
     }
   }
+
+  @media ${({ theme }) => theme.breakpoint.mobileM} {
+    .item-dropdown {
+      width: 375px;
+    }
+  }
+  @media ${({ theme }) => theme.breakpoint.mobile} {
+    .item-dropdown {
+      width: 320px;
+      p {
+        font-size: 16px;
+      }
+    }
+  }
 `
