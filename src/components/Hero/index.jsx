@@ -17,7 +17,7 @@ export default function Hero(props) {
                 <div></div>
               </div>
 
-              <div className="dash border-top border-left border-right border-bottom">
+              <div className="dash ">
                 <iframe
                   width="560"
                   height="315"
