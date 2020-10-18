@@ -1,0 +1,150 @@
+{
+  "name": "Barber Day Business ",
+  "short_name": "Barber Day",
+  "theme_color": "#0D151D",
+  "background_color": "#0D151D",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "assets": [
+    {
+      "src": "favicon_logo.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/arrow_right.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/bonus.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/bonusbg.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/BRUNO-VANENCK.webp",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/certificate.webp",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/Direita- Hero.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/Direita- Hero.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/Esquerda-hero.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/Esquerda-inferior.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/Google-Pixel- 4-XL-Screen.webp",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/less.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/logo_black.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/logo.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/logobg.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/method_play.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/module1.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/module1.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/module2.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/module3.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/module4.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/module5.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/module6.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/more.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/PixelBookGo-small.webp",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/PixelBookGo.webp",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/Seu-Elias.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/stamp.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "assets/stampbg.svg",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/texture-bottom-left.svg",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/texture-bottom-right.svg",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/texture-top-left.svg",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/texture-top-right.svg",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}

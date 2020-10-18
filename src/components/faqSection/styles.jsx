@@ -89,9 +89,13 @@ export const Container = styled.section`
   }
 
   @media ${({ theme }) => theme.breakpoint.mobileL} {
-    max-width: 768px;
+    max-width: 425px;
     padding: 0 24px;
-
+    .max-header {
+      h3 {
+        margin: 96px 0 8px;
+      }
+    }
     .item-dropdown {
       width: 100%;
       min-height: 70px;
@@ -104,16 +108,16 @@ export const Container = styled.section`
     }
   }
   @media ${({ theme }) => theme.breakpoint.mobileM} {
+    max-width: 375px;
+
     .item-dropdown {
-      width: 375px;
-    }
-  }
-  @media ${({ theme }) => theme.breakpoint.mobileS} {
-    .item-dropdown {
-      width: 320px;
+      /* width: 375px; */
       p {
         font-size: 16px;
       }
     }
+  }
+  @media ${({ theme }) => theme.breakpoint.mobileS} {
+    max-width: 320px;
   }
 `

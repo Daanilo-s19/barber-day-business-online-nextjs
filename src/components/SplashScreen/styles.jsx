@@ -11,7 +11,7 @@ export const Content = styled.div`
   #logo-background {
     width: 395px;
     height: 526px;
-    background: url('assets/logobg.svg');
+    background: url('assets/logobg.svg') center no-repeat;
     display: grid;
     grid-template-rows: 237px 40px;
     align-content: center;
@@ -80,8 +80,9 @@ export const Content = styled.div`
   }
 
   @media ${({ theme }) => theme.breakpoint.mobileM} {
-    width: 375px;
+    /* width: 375px; */
     #logo-background {
+      width: 100%;
       /* width: 80%;
       height: 526px; */
     }

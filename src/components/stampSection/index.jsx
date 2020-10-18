@@ -1,5 +1,5 @@
-import Button from "../Button";
-import { Container } from "./styles";
+import Button from '../Button'
+import { Container } from './styles'
 
 export default function StampSection(props) {
   return (
@@ -7,15 +7,15 @@ export default function StampSection(props) {
       <div className="content">
         <div
           className="filter-gold"
-          data-aos={screen.width <= 768 ? "flip-left" : "fade-right"}
+          data-aos={screen.width <= 768 ? 'flip-left' : 'fade-right'}
           data-aos-delay="250"
         >
           <img src=" assets/stamp.svg" id="stamp" />
         </div>
         <div
           className="description"
-          data-aos={screen.width <= 768 ? "fade-down" : "fade-left"}
-          data-aos-delay="1500"
+          data-aos={screen.width <= 768 ? 'fade-down' : 'fade-left'}
+          data-aos-delay="500"
         >
           <label>
             Eu vou te dar uma garantia
@@ -29,5 +29,5 @@ export default function StampSection(props) {
         </div>
       </div>
     </Container>
-  );
+  )
 }

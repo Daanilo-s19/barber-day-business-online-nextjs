@@ -274,7 +274,7 @@ export default function Home() {
                   'Ao adquirir o BARBER DAY BUSINESS ONLINE você terá acesso a plataforma por 12 meses. Durante esse tempo você pode ver todo o conteúdo do curso quantas vezes desejar.',
               },
             ]}
-          />{' '}
+          />
           <Footer />
         </div>
       </Container>

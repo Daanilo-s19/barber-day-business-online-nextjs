@@ -1,18 +1,18 @@
-import App from "next/app";
+import App from 'next/app'
 
-import Head from "next/head";
-import AOS from "aos";
-import { ThemeProvider } from "styled-components";
-import { GlobalStyle, theme } from "../../styles";
-import "aos/dist/aos.css";
+import Head from 'next/head'
+import AOS from 'aos'
+import { ThemeProvider } from 'styled-components'
+import { GlobalStyle, theme } from '../../styles'
+import 'aos/dist/aos.css'
 export default class MyApp extends App {
   componentDidMount() {
     AOS.init({
       duration: 2000,
-    });
+    })
   }
   render() {
-    const { Component, pageProps } = this.props;
+    const { Component, pageProps } = this.props
 
     return (
       <ThemeProvider theme={theme}>
@@ -21,7 +21,7 @@ export default class MyApp extends App {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="viewport"
-            content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+            content="width=device-width, initial-scale=1.0"
           ></meta>
           <meta name="description" content="Description"></meta>
           <meta name="keywords" content="Keywords" />
@@ -45,6 +45,6 @@ export default class MyApp extends App {
         <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
-    );
+    )
   }
 }

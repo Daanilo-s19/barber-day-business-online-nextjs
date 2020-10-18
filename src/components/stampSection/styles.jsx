@@ -81,10 +81,17 @@ export const Container = styled.section`
       }
     }
   }
+  @media ${({ theme }) => theme.breakpoint.mobileL} {
+    max-width: 425px;
+  }
 
   @media ${({ theme }) => theme.breakpoint.mobileS} {
+    #stamp {
+      padding: 64px 0;
+    }
+
     .description {
-      width: 320px;
+      /* width: 320px; */
       display: flex;
       flex-direction: column;
 
